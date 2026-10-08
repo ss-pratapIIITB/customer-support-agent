@@ -1,0 +1,2 @@
+Demo store policy — Returns
+This fictional retailer accepts returns within 14 calendar days of delivery for unopened products in original packaging with proof of purchase. Opened headphones and earbuds cannot be returned for change of mind for hygiene reasons. Faulty products should be reported to demo support for assessment; this exception does not guarantee a refund. Return shipping for change of mind is paid by the customer. Approved refunds return to the original payment method within 5–10 business days after inspection. This is a demo store policy, not Apple policy.

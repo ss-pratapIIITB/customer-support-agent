@@ -1,0 +1,42 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_USER: support
+      POSTGRES_PASSWORD: support
+      POSTGRES_DB: support
+    ports: ["127.0.0.1:5434:5432"]
+    volumes: ["postgres_data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U support -d support"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+  litellm:
+    image: ghcr.io/berriai/litellm:main-stable
+    env_file: .env
+    environment:
+      PYTHONPATH: /app/custom
+      COST_LOG_PATH: /logs/gateway-costs.jsonl
+    command: ["--config", "/app/custom/config.yaml", "--port", "4000", "--host", "0.0.0.0"]
+    ports: ["127.0.0.1:4000:4000"]
+    volumes: ["./litellm:/app/custom:ro", "./.runtime:/logs"]
+  app:
+    build: .
+    environment:
+      DATABASE_URL: postgres://support:support@postgres:5432/support
+      LITELLM_BASE_URL: http://litellm:4000/v1
+      LITELLM_API_KEY: ${LITELLM_API_KEY:-demo-local-key}
+      CODEX_RUNTIME_DIR: /app/.runtime/codex
+      COST_LOG_PATH: /app/.runtime/gateway-costs.jsonl
+      PORT: 3000
+      APP_HOST: 0.0.0.0
+    ports: ["127.0.0.1:3000:3000"]
+    volumes: ["./.runtime:/app/.runtime", "./data:/app/data"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+      litellm:
+        condition: service_started
+volumes:
+  postgres_data:

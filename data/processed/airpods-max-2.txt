@@ -1,0 +1,165 @@
+AirPods Max 2 Technical Specifications
+AirPods Max 2
+Color
+Midnight
+Starlight
+Blue
+Purple
+Orange
+AudioTechnology
+Apple-designed dynamic driver
+Custom high dynamic range amplifier
+Active Noise Cancellation
+Adaptive Audio1
+Transparency mode
+Conversation Awareness1
+Voice Isolation2
+Personalized Volume3
+Loud Sound Reduction
+Personalized Spatial Audio with dynamic head tracking4
+Adaptive EQ
+Studio-quality audio recording
+Lossless Audio and ultra-low latency audio via USB‑C5
+Live Translation
+Live Translation for communicating across languages6
+Sensors
+Optical sensor (each ear cup)
+Position sensor (each ear cup)
+Case-detect sensor (each ear cup)
+Accelerometer (each ear cup)
+Gyroscope (left ear cup)
+Microphones
+Nine microphones total:
+Eight microphones for Active Noise Cancellation
+Three microphones for voice pickup (two shared with Active Noise Cancellation and one additional microphone)
+Chip
+Apple H2 headphone chip (each ear cup)
+Controls
+Digital Crown
+Turn for volume control
+Press once to play or pause media
+Press once to answer a call or mute or unmute7
+Press once for camera remote8
+Press twice to end a call
+Press twice to skip forward
+Press three times to skip back
+Press and hold for Siri
+Listening mode button
+Press to switch between listening modes
+Siri
+Say just “Siri”9 or ”Hey Siri” to do things like play a song, make a call, or get directions
+Siri Interactions10
+Size and Weight11
+AirPods Max 2, including cushions
+6.64 inches (168.6 mm)
+3.28 inches (83.4 mm)
+7.37 inches (187.3 mm)
+Weight: 13.6 ounces (386.2 grams)
+Smart Case
+Weight: 4.74 ounces (134.5 grams)
+Battery
+AirPods Max 2 (full charge)
+Up to 20 hours of listening time on a single charge with Active Noise Cancellation enabled12
+5 minutes of charge time provides around 1.5 hours of listening time13
+AirPods Max 2 with Smart Case
+Storage in the Smart Case preserves battery charge in ultra-low-power state
+Charging via USB‑C
+Connectivity
+Bluetooth 5.3 wireless technology
+In the Box
+AirPods Max 2
+Smart Case
+USB‑C Charge Cable
+Documentation
+Accessibility14
+Accessibility features help people with disabilities get the most out of their new AirPods Max.
+Features include:
+Live Listen audio
+Headphone levels
+
+
+---
+
+preserves battery charge in ultra-low-power state
+Charging via USB‑C
+Connectivity
+Bluetooth 5.3 wireless technology
+In the Box
+AirPods Max 2
+Smart Case
+USB‑C Charge Cable
+Documentation
+Accessibility14
+Accessibility features help people with disabilities get the most out of their new AirPods Max.
+Features include:
+Live Listen audio
+Headphone levels
+
+Headphone Accommodations
+System Requirements
+iPhone models with the latest version of iOS
+iPad models with the latest version of iPadOS
+Apple Watch models with the latest version of watchOS
+Mac models with the latest version of macOS
+Apple TV models with the latest version of tvOS
+Apple Vision Pro with the latest version of visionOS
+AirPods can be used as wireless Bluetooth headphones with Apple devices using earlier software and with non-Apple devices, but functionality may be limited.
+Progress toward Apple 2030
+Apple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonize products is rigorous and focuses on transitioning to low-carbon electricity, designing with recycled and low-carbon materials, and prioritizing lower-carbon ways of shipping products, like ocean freight.
+See Apple’s commitment
+Materials
+100% recycled cobalt in the battery
+100% recycled copper in multiple printed circuit boards
+100% recycled gold plating and tin solder in all Apple-designed printed circuit boards
+100% recycled rare earth elements in all magnets
+90% recycled polyester in the canopy and cushion yarn
+100% recycled polyester inside the ear cushion
+Packaging
+100% fiber-based packaging15
+Waste
+No established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Program16
+Smarter chemistry17
+All of the materials used in Apple products, accessories, and packaging are covered by the requirements of our Regulated Substances Specification, which was one of the first in industry to restrict the use of key substances of concern. See the latest Environmental Progress Report to understand Apple’s recent efforts in phasing out these chemistries.
+
+
+---
+
+l of the materials used in Apple products, accessories, and packaging are covered by the requirements of our Regulated Substances Specification, which was one of the first in industry to restrict the use of key substances of concern. See the latest Environmental Progress Report to understand Apple’s recent efforts in phasing out these chemistries.
+
+Source footnote footnote-1: Available on AirPods Max 2 with the latest firmware when paired with compatible devices running iOS 26.4, iPadOS 26.4, or macOS 26.4 and later.
+Source footnote footnote-2: Available on AirPods Max 2 with the latest firmware when paired with compatible devices running iOS 26.4, iPadOS 26.4, or macOS 26.4 and later. For the best performance, update to the latest software.
+Source footnote footnote-3: Available on AirPods Max 2 with the latest firmware when paired with compatible devices running the latest operating system software, including iOS, iPadOS, and macOS.
+Source footnote footnote-4: Compatible hardware and software required. Works with compatible content in supported apps. Not all content available in Dolby Atmos. iPhone with TrueDepth camera required to create a personal profile for Spatial Audio, which will sync across Apple devices running the latest operating system software, including iOS, iPadOS, macOS, and tvOS.
+Source footnote footnote-5: Ultra-low latency audio and Lossless Audio listening requires a wired USB‑C connection and compatible content from supported apps and services.
+Source footnote footnote-6: Available on compatible Apple devices with the latest operating system software when paired with compatible AirPods with the latest firmware when Apple Intelligence is turned on. Available in beta. Some features may not be available in all regions or languages; for more information, see Feature Availability.
+Source footnote footnote-7: Available in compatible applications with the latest firmware.
+Source footnote footnote-8: Available on AirPods Max 2 with the latest firmware when paired with compatible devices running iOS 26.4 or iPadOS 26.4 and later.
+
+
+---
+
+s may not be available in all regions or languages; for more information, see Feature Availability.
+Source footnote footnote-7: Available in compatible applications with the latest firmware.
+Source footnote footnote-8: Available on AirPods Max 2 with the latest firmware when paired with compatible devices running iOS 26.4 or iPadOS 26.4 and later.
+
+Source footnote footnote-9: Siri and activating with just “Siri” may not be available in all languages or in all areas, and features may vary by area. Compatible device and internet access required. Cellular data charges may apply. Activating with just “Siri” is not available on AirPods with the H1 headphone chip and Intel-based Mac computers. Devices must support and have the latest operating system software.
+Source footnote footnote-10: Available on AirPods Max 2 with the latest firmware when paired with compatible devices running iOS 26.4, iPadOS 26.4, or macOS 26.4 and later.
+Source footnote footnote-11: Size and weight vary by configuration and manufacturing process.
+Source footnote footnote-12: Testing conducted by Apple in January and February 2026 using preproduction AirPods Max 2 paired with production iPhone 17 Pro Max units, all with prerelease software. The playlist consisted of 358 unique audio tracks purchased from the iTunes Store (256-Kbps AAC encoding). Volume was set to 50%, Active Noise Cancellation was enabled, and Spatial Audio was set to fixed. Testing consisted of full AirPods Max battery discharge while playing audio until the AirPods Max stopped playback. Battery life depends on device settings, environment, usage, and many other factors.
+
+
+---
+
+sed from the iTunes Store (256-Kbps AAC encoding). Volume was set to 50%, Active Noise Cancellation was enabled, and Spatial Audio was set to fixed. Testing consisted of full AirPods Max battery discharge while playing audio until the AirPods Max stopped playback. Battery life depends on device settings, environment, usage, and many other factors.
+
+Source footnote footnote-13: Testing conducted by Apple in March 2026 using preproduction AirPods Max 2 paired with production iPhone 15 Pro Max units, all with prerelease software. The playlist consisted of 358 unique audio tracks purchased from the iTunes Store (256-Kbps AAC encoding). Volume was set to 50%, Active Noise Cancellation was enabled, and Spatial Audio was set to fixed. 5‑Minute charge testing conducted with drained AirPods Max that were charged for 5 minutes, then audio playback was started until the AirPods Max stopped playback. Battery life depends on device settings, environment, usage, and many other factors.
+Source footnote footnote-14: Requires the latest version of iOS or iPadOS.
+Source footnote footnote-15: Breakdown of U.S. retail packaging by weight. Adhesives, inks, and coatings are excluded from our calculations.
+Source footnote footnote-16: All established final assembly supplier sites — those that have been Apple suppliers for more than one year — for AirPods Max 2 are third-party verified as Zero Waste by UL LLC (UL 2799 Standard). UL requires at least 90% diversion through methods other than waste to energy to achieve Zero Waste to Landfill (Silver 90–94%, Gold 95–99%, and Platinum 100%) designations.
+
+
+---
+
+assembly supplier sites — those that have been Apple suppliers for more than one year — for AirPods Max 2 are third-party verified as Zero Waste by UL LLC (UL 2799 Standard). UL requires at least 90% diversion through methods other than waste to energy to achieve Zero Waste to Landfill (Silver 90–94%, Gold 95–99%, and Platinum 100%) designations.
+
+Source footnote footnote-17: Apple’s Regulated Substances Specification describes Apple’s restrictions on the use of certain chemical substances in materials in Apple products, accessories, manufacturing processes, and packaging used for shipping products to Apple’s end-customers. Restrictions are derived from international laws or directives, regulatory agencies, eco-label requirements, environmental standards, and Apple policies. Every Apple product is free of PVC and phthalates except for AC power cords in India, Thailand (for two-prong AC power cords), and South Korea, where we continue to seek government approval for our PVC and phthalates replacement. Apple products comply with the European Union Directive 2011/65/EU and its amendments, including exemptions for the use of lead such as high-temperature solder. Apple is working to phase out the use of these exempted substances for new products where technically possible.

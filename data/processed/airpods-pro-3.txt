@@ -1,0 +1,234 @@
+AirPods Pro 3 Technical Specifications
+See AirPods Pro in AR
+Audio Technology
+Custom high-excursion Apple driver
+Custom high dynamic range amplifier
+Active Noise Cancellation
+Adaptive Audio1
+Transparency mode2
+Conversation Awareness1
+Voice Isolation3
+Personalized Volume4
+Loud Sound Reduction
+Personalized Spatial Audio with dynamic head tracking5
+Adaptive EQ
+Studio-quality audio recording
+Vent system for pressure equalization
+Hearing Health
+Hearing Test6
+Hearing Aid6
+Automatic Conversation Boost when using Hearing Aid feature7
+Hearing Protection8
+Live Translation
+Live Translation for communicating across languages9
+Sensors
+Dual beamforming microphones
+Inward-facing microphone
+Skin-detect sensor
+Motion-detecting accelerometer
+Speech-detecting accelerometer
+Heart rate sensor for workouts10
+Touch control
+Chip
+Apple H2 headphone chip
+Apple second-generation Ultra Wideband chip in MagSafe Charging Case
+Controls
+Press once to play or pause media
+Press once to answer a call or mute or unmute11
+Press once for camera remote12
+Press twice to end a call
+Press twice to skip forward
+Press three times to skip back
+Press and hold to switch between listening modes
+Swipe up or down to adjust volume
+Say just “Siri”13 or “Hey Siri” to do things like play a song, make a call, or get directions
+Siri interactions4
+Dust, Sweat, and Water Resistant14
+Dust, sweat, and water resistant (IP57): AirPods Pro and charging case
+Size and Weight (Each)15
+0.76 inch (19.2 mm)
+1.22 inches
+(30.9 mm)
+Height:
+1.22 inches
+(30.9 mm)
+Width:
+0.76 inch (19.2 mm)
+Depth:
+1.06 inches (27.0 mm)
+Weight:
+0.20 ounce (5.55 grams)
+2.45 inches (62.2 mm)
+1.86 inches
+(47.2 mm)
+0.86 inch (21.8 mm)
+Height:
+1.86 inches
+(47.2 mm)
+Width:
+2.45 inches (62.2 mm)
+Depth:
+0.86 inch (21.8 mm)
+Weight:
+1.55 ounces (43.99 grams)
+Charging Case
+Works with MagSafe charger, Apple Watch charger, Qi‑certified chargers, or USB‑C connector
+Includes a speaker for use with Find My16
+Battery
+AirPods Pro 3
+Up to 8 hours of listening time on a single charge with Active Noise Cancellation enabled (up to 7.5 hours with Spatial Audio and Head Tracking enabled)17
+
+
+---
+
+1.55 ounces (43.99 grams)
+Charging Case
+Works with MagSafe charger, Apple Watch charger, Qi‑certified chargers, or USB‑C connector
+Includes a speaker for use with Find My16
+Battery
+AirPods Pro 3
+Up to 8 hours of listening time on a single charge with Active Noise Cancellation enabled (up to 7.5 hours with Spatial Audio and Head Tracking enabled)17
+
+Up to 6.5 hours of listening time on a single charge with heart rate sensing during workouts18
+Up to 10 hours of listening time on a single charge in Transparency using the Hearing Aid feature19
+AirPods Pro 3 with MagSafe Charging Case (USB‑C)20
+Up to 24 hours of listening time with Active Noise Cancellation enabled21
+5 minutes in the case provides around 1 hour of listening time22
+Connectivity
+Bluetooth 5.3 wireless technology
+In the Box
+AirPods Pro 3
+MagSafe Charging Case (USB‑C) with speaker and lanyard loop
+Silicone ear tips (five sizes: XXS, XS, S, M, L)
+Documentation
+USB‑C Charge Cable sold separately
+Accessibility
+Accessibility features help people with disabilities get the most out of their AirPods Pro. Features include:
+Hearing Test6
+Hearing Aid6
+Automatic Conversation Boost when using Hearing Aid feature7
+Hearing Protection8
+Live Listen audio23
+Headphone levels
+Headphone Accommodations
+System Requirements
+iPhone models with the latest version of iOS
+iPad models with the latest version of iPadOS
+Apple Watch models with the latest version of watchOS
+Mac models with the latest version of macOS
+Apple TV models with the latest version of tvOS
+Apple Vision Pro with the latest version of visionOS
+AirPods can be used as wireless Bluetooth headphones with Apple devices using earlier software and with non‑Apple devices, but functionality may be limited.
+AirPods Pro 3 are designed to reduce environmental impact:24
+See the AirPods Pro 3 Product Environmental Report (PDF) (opens in new window)
+Progress toward Apple 2030
+
+
+---
+
+atest version of visionOS
+AirPods can be used as wireless Bluetooth headphones with Apple devices using earlier software and with non‑Apple devices, but functionality may be limited.
+AirPods Pro 3 are designed to reduce environmental impact:24
+See the AirPods Pro 3 Product Environmental Report (PDF) (opens in new window)
+Progress toward Apple 2030
+
+Apple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonize products is rigorous and focuses on transitioning to low-carbon electricity, designing with recycled and low-carbon materials, and prioritizing lower-carbon ways of shipping products, like ocean freight.
+See Apple's commitment
+Materials
+AirPods Pro 3 are made with 40% recycled content,25 including:
+100% recycled aluminum in the hinge
+100% recycled cobalt and 95% recycled lithium in the battery
+100% recycled gold plating and tin solder in all Apple-designed printed circuit boards
+100% recycled copper wire in the inductive charger
+100% recycled rare earth elements in all magnets
+65% recycled plastic in the case
+Packaging
+100% fiber-based packaging26
+We designed the AirPods Pro 3 box to be smaller than AirPods Pro 2 boxes, enabling 25% more units shipped per trip.27
+Energy
+40% of manufacturing electricity for AirPods Pro 3 is sourced from renewable electricity28
+Meets U.S. Department of Energy requirements for battery charger systems29
+Waste
+No established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Program30
+Smarter chemistry31
+All of the materials used in Apple products, accessories, and packaging are covered by the requirements of our Regulated Substances Specification, which was one of the first in industry to restrict the use of key substances of concern. See the latest Environmental Progress Report to understand Apple’s recent efforts in phasing out these chemistries.
+Source footnote footnote-1: Available on compatible devices running iOS 18, iPadOS 18, or macOS Sequoia and later when paired with AirPods Pro 2 and later with the latest firmware.
+
+
+---
+
+ry to restrict the use of key substances of concern. See the latest Environmental Progress Report to understand Apple’s recent efforts in phasing out these chemistries.
+Source footnote footnote-1: Available on compatible devices running iOS 18, iPadOS 18, or macOS Sequoia and later when paired with AirPods Pro 2 and later with the latest firmware.
+
+Source footnote footnote-2: Device performance and noise control features like Active Noise Cancellation, Adaptive Audio, and Transparency can be affected by debris or earwax buildup. Clean the device regularly to maintain performance and full feature functionality. Refer to support.apple.com/120409 for AirPods Pro cleaning instructions.
+Source footnote footnote-3: Available on compatible devices running iOS 18, iPadOS 18, or macOS Sequoia and later when paired with AirPods Pro 2 and later with the latest firmware. For the best performance, update to the latest software.
+Source footnote footnote-4: Available on compatible devices running iOS 18, iPadOS 18, or macOS Sequoia and later when paired with AirPods Pro 2 and later with the latest firmware.
+Source footnote footnote-5: Compatible hardware and software required. Works with compatible content in supported apps. Not all content available in Dolby Atmos. iPhone with TrueDepth camera required to create a personal profile for Spatial Audio, which will sync across Apple devices running the latest operating system software, including iOS, iPadOS, macOS, and tvOS.
+Source footnote footnote-6: The Hearing Aid feature has received FDA authorization. The Hearing Test and Hearing Aid features are supported on AirPods Pro 2 and later with the latest firmware paired with a compatible iPhone or iPad with iOS 18 or iPadOS 18 and later and are intended for people 18 years old or older. The Hearing Aid feature is also supported on a compatible Mac with macOS Sequoia and later. It is intended for people with perceived mild to moderate hearing loss.
+
+
+---
+
+pported on AirPods Pro 2 and later with the latest firmware paired with a compatible iPhone or iPad with iOS 18 or iPadOS 18 and later and are intended for people 18 years old or older. The Hearing Aid feature is also supported on a compatible Mac with macOS Sequoia and later. It is intended for people with perceived mild to moderate hearing loss.
+
+Source footnote footnote-7: Supported on AirPods Pro 2 and later with the latest firmware when paired with a compatible iPhone running iOS 26 and later. This feature may not be available in all regions or all languages. View complete list.
+Source footnote footnote-8: The Hearing Protection feature works with AirPods Pro 2 and later with the latest firmware when paired with a compatible iPhone, iPad, or Mac with iOS 18, iPadOS 18, or macOS Sequoia and later. This feature is not available in all regions or all languages. View complete list. See support.apple.com/120850 for total attenuation and more information. The Hearing Protection feature is not suitable for protection against extremely loud impulse sounds, such as gunfire, fireworks, or jackhammers, or against sustained sounds louder than 110 dBA.
+Source footnote footnote-9: Live Translation with AirPods works on AirPods 4 with Active Noise Cancellation and AirPods Pro 2 and later with the latest firmware when paired with an Apple Intelligence‑enabled iPhone running iOS 26 and later. Live Translation with AirPods works on AirPods Max 2 with the latest firmware when paired with an Apple Intelligence‑enabled iPhone running iOS 26.4 and later. Available in beta. Some features may not be available in all regions or languages; for more information, see Feature Availability.
+Source footnote footnote-10: Built-in heart rate monitor is intended for use during workouts with the Fitness app and compatible third-party apps on iPhone running iOS 26 and later. Refer to support.apple.com/123184 for more information.
+Source footnote footnote-11: Available in compatible applications with the latest firmware.
+Source footnote footnote-12: Available on compatible devices running iOS 26 or iPadOS 26 and later when paired with AirPods Pro 2 and later.
+
+
+---
+
+patible third-party apps on iPhone running iOS 26 and later. Refer to support.apple.com/123184 for more information.
+Source footnote footnote-11: Available in compatible applications with the latest firmware.
+Source footnote footnote-12: Available on compatible devices running iOS 26 or iPadOS 26 and later when paired with AirPods Pro 2 and later.
+
+Source footnote footnote-13: Siri and activating with just “Siri” may not be available in all languages or in all areas, and features may vary by area. Compatible device and internet access required. Cellular data charges may apply. Activating with just “Siri” is not available on AirPods with the H1 headphone chip and Intel‑based Mac computers. Devices must support and have the latest operating system software.
+Source footnote footnote-14: AirPods Pro 3 are dust, sweat, and water resistant for non-water sports and exercise. Products including charging case were tested under controlled laboratory conditions, and have a rating of IP57 under IEC standard 60529. Dust, sweat, and water resistance are not permanent conditions and resistance might decrease as a result of normal wear. Do not attempt to charge when wet; refer to support.apple.com/kb/HT210711 for cleaning and drying instructions.
+Source footnote footnote-15: Size and weight vary by configuration and manufacturing process.
+Source footnote footnote-16: Find My functionality requires iOS 27 or later.
+Source footnote footnote-17: Testing conducted by Apple in July and August 2025 using preproduction AirPods Pro 3 with MagSafe Charging Case paired with preproduction iPhone 17 Pro units, all with prerelease software. The playlist consisted of 358 unique audio tracks purchased from the iTunes Store (256-Kbps AAC encoding). Listening time was up to 8 hours when volume was set to 50% and Active Noise Cancellation was enabled. With Spatial Audio and Head Tracking enabled, listening time was up to 7.5 hours. Testing consisted of full AirPods Pro battery discharge while playing audio until the first AirPod Pro stopped playback. Battery life depends on device settings, environment, usage, and many other factors.
+
+
+---
+
+ume was set to 50% and Active Noise Cancellation was enabled. With Spatial Audio and Head Tracking enabled, listening time was up to 7.5 hours. Testing consisted of full AirPods Pro battery discharge while playing audio until the first AirPod Pro stopped playback. Battery life depends on device settings, environment, usage, and many other factors.
+
+Source footnote footnote-18: Testing conducted by Apple in July and August 2025 using preproduction AirPods Pro 3 with MagSafe Charging Case paired with preproduction iPhone 17 Pro units, all with prerelease software. The playlist consisted of 358 unique audio tracks purchased from the iTunes Store (256-Kbps AAC encoding). Volume was set to 50% and Transparency was enabled. Testing consisted of full AirPods Pro battery discharge with heart rate sensing during outdoor walk workout with music playing back from iPhone until the first AirPod Pro was fully discharged. Battery life depends on device settings, environment, usage, and many other factors.
+Source footnote footnote-19: Testing conducted by Apple in July and August 2025 using preproduction AirPods Pro 3 with MagSafe Charging Case paired with preproduction iPhone 17 Pro units, all with prerelease software. Both volume and amplification level were set to 50% and Transparency was enabled. Testing consisted of full AirPods Pro battery discharge with the Hearing Aid feature on, with no audio playing back from iPhone, until the first AirPod Pro was fully discharged. Battery life depends on device settings, environment, usage, and many other factors.
+Source footnote footnote-20: MagSafe charging requires a compatible MagSafe charger. Wireless charging requires a Qi‑certified wireless charger. Charging case also works with the Apple Watch charger or USB‑C connector.
+
+
+---
+
+il the first AirPod Pro was fully discharged. Battery life depends on device settings, environment, usage, and many other factors.
+Source footnote footnote-20: MagSafe charging requires a compatible MagSafe charger. Wireless charging requires a Qi‑certified wireless charger. Charging case also works with the Apple Watch charger or USB‑C connector.
+
+Source footnote footnote-21: Testing conducted by Apple in July and August 2025 using preproduction AirPods Pro 3 with MagSafe Charging Case paired with preproduction iPhone 17 Pro units, all with prerelease software. The playlist consisted of 358 unique audio tracks purchased from the iTunes Store (256-Kbps AAC encoding). Volume was set to 50% and Active Noise Cancellation was enabled. Testing consisted of full AirPods Pro battery discharge while playing audio until the first AirPod Pro stopped playback. The drained AirPods Pro were charged to 100 percent, then audio playback was resumed until the first AirPod Pro stopped playback. This cycle was repeated until both the AirPods Pro and charging case were fully discharged. Battery life depends on device settings, environment, usage, and many other factors.
+Source footnote footnote-22: Testing conducted by Apple in July and August 2025 using preproduction AirPods Pro 3 with MagSafe Charging Case paired with preproduction iPhone 17 Pro units, all with prerelease software. The playlist consisted of 358 unique audio tracks purchased from the iTunes Store (256-Kbps AAC encoding). Volume was set to 50% and Active Noise Cancellation was enabled. 5-Minute charge testing conducted with drained AirPods Pro that were charged for 5 minutes, then audio playback was started until the first AirPod Pro stopped playback. Battery life depends on device settings, environment, usage, and many other factors.
+Source footnote footnote-23: Requires the latest version of iOS or iPadOS.
+Source footnote footnote-24: Data accurate as of product launch.
+Source footnote footnote-25: Product recycled or renewable content is the mass of certified recycled material relative to the overall mass of the device, not including packaging or in‑box accessories.
+
+
+---
+
+factors.
+Source footnote footnote-23: Requires the latest version of iOS or iPadOS.
+Source footnote footnote-24: Data accurate as of product launch.
+Source footnote footnote-25: Product recycled or renewable content is the mass of certified recycled material relative to the overall mass of the device, not including packaging or in‑box accessories.
+
+Source footnote footnote-26: Based on retail packaging as shipped by Apple. Breakdown of U.S. retail packaging by weight. Adhesives, inks, and coatings are excluded from our calculations of plastic content and packaging weight.
+Source footnote footnote-27: Based on the number of multi-unit boxes that fit onto a pallet compared with AirPods Pro 2. This increase in efficiency excludes pallets shipped to Brazil.
+Source footnote footnote-28: We estimate the percentage of electricity‑related emissions in our manufacturing that is sourced from low‑carbon electricity by attributing to our carbon model low‑carbon energy procured by our suppliers in the prior fiscal year, based on the supplier manufacturing allocations at time of product launch. This calculation assesses the suppliers for AirPods Pro 3. Included in this number is only low‑carbon electricity that Apple or its suppliers have procured as part of Apple’s Supplier Clean Energy Program.
+Source footnote footnote-29: Efficiency performance is based on the U.S. Department of Energy Federal Energy Conservation Standards for Battery Chargers.
+Source footnote footnote-30: All established final assembly supplier sites — those that have been Apple suppliers for more than one year — for AirPods Pro 3 are third-party verified as Zero Waste by UL LLC (UL 2799 Standard). UL requires at least 90% diversion through methods other than waste to energy to achieve Zero Waste to Landfill (Silver 90–94%, Gold 95–99%, and Platinum 100%) designations.
+
+
+---
+
+assembly supplier sites — those that have been Apple suppliers for more than one year — for AirPods Pro 3 are third-party verified as Zero Waste by UL LLC (UL 2799 Standard). UL requires at least 90% diversion through methods other than waste to energy to achieve Zero Waste to Landfill (Silver 90–94%, Gold 95–99%, and Platinum 100%) designations.
+
+Source footnote footnote-31: Apple’s Regulated Substances Specification describes Apple’s restrictions on the use of certain chemical substances in materials in Apple products, accessories, manufacturing processes, and packaging used for shipping products to Apple’s end-customers. Restrictions are derived from international laws or directives, regulatory agencies, eco-label requirements, environmental standards, and Apple policies. Every Apple product is free of PVC and phthalates except for AC power cords in India, Thailand (for two-prong AC power cords), and South Korea, where we continue to seek government approval for our PVC and phthalates replacement. Apple products comply with the European Union Directive 2011/65/EU and its amendments, including exemptions for the use of lead such as high-temperature solder. Apple is working to phase out the use of these exempted substances for new products where technically possible.

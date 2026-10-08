@@ -1,0 +1,18 @@
+model_list:
+  - model_name: gpt-6-luna
+    litellm_params:
+      model: openai/gpt-6-luna
+      api_key: os.environ/OPENAI_API_KEY
+  - model_name: gpt-6-sol
+    litellm_params:
+      model: openai/gpt-6-sol
+      api_key: os.environ/OPENAI_API_KEY
+  - model_name: text-embedding-3-small
+    litellm_params:
+      model: openai/text-embedding-3-small
+      api_key: os.environ/OPENAI_API_KEY
+litellm_settings:
+  callbacks: [cost_logger.proxy_handler_instance]
+  num_retries: 0
+general_settings:
+  master_key: os.environ/LITELLM_API_KEY

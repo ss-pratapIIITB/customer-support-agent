@@ -1,0 +1,2 @@
+Demo store policy — Shipping
+This fictional retailer ships within Singapore. Standard delivery takes 3–5 business days after dispatch. Express delivery takes 1–2 business days after dispatch. Standard delivery costs S$5 and is free for orders of S$100 or more. Express delivery costs S$12. Orders are dispatched within two business days. Delivery estimates exclude weekends and public holidays. This is a demo store policy, not Apple policy. We cannot access order tracking or inventory.

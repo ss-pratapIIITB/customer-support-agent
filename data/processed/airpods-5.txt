@@ -1,0 +1,239 @@
+AirPods 5 Technical Specifications
+AirPods 5
+AirPods 5Wireless Charging Case
+Audio Technology1
+Custom high-excursion Apple driver
+Custom high dynamic range amplifier
+Active Noise Cancellation
+Adaptive Audio2
+Transparency
+Conversation Awareness2
+Voice Isolation2
+Personalized Spatial Audio with dynamic head tracking3
+Adaptive EQ
+Studio-quality audio recording
+Vent system for pressure equalization
+Live Translation
+Live Translation for communicating across languages4
+Siri AI5
+Get more done every day with hands‑free access to an even more powerful and personalized AI assistant on your iPhone. Ask open‑ended questions, brainstorm, and have full conversations.
+Sensors
+Dual beamforming microphones
+Inward-facing microphone
+Optical in-ear sensor
+Motion-detecting accelerometer
+Speech-detecting accelerometer
+Force sensor
+Force sensor with volume swipe (AirPods 5 with Wireless Charging Case)
+Chip
+H2 headphone chip
+Controls
+Press once to play or pause media
+Press once to answer a call or mute or unmute6
+Press once for camera remote7
+Press twice to end a call
+Press twice to skip forward
+Press three times to skip back
+Press and hold to switch between listening modes
+Swipe up or down to adjust volume (AirPods 5 with Wireless Charging Case)
+Say “Hey Siri” or just “Siri”8 to do things like play a song, make a call, or get directions
+With Siri Interactions, nod your head yes or gently shake your head no when Siri asks if you want to answer an incoming call, hear a text message, manage notifications, and more2
+Dust, Sweat, and Water Resistant9
+Dust, sweat, and water resistant (IP57)
+Size and Weight (Each)10
+0.72 inch (18.3 mm)
+1.19 inches (30.2 mm)
+Height:
+1.19 inches (30.2 mm)
+Width:
+0.72 inch (18.3 mm)
+Depth:
+0.71 inch (18.1 mm)
+Weight:
+0.15 ounce (4.3 grams)
+1.97 inches (50.1 mm)
+1.82 inches (46.2 mm)
+0.83 inch (21.2 mm)
+Height:
+1.82 inches (46.2 mm)
+Width:
+1.97 inches (50.1 mm)
+Depth:
+0.83 inch (21.2 mm)
+Weight (AirPods 5):
+1.14 ounces (32.3 grams)
+Weight (AirPods 5 with Wireless Charging Case):
+1.22 ounces (34.7 grams)
+Charging Case
+AirPods 5
+Works with USB‑C connector
+AirPods 5 with Wireless Charging Case
+
+
+---
+
+ches (50.1 mm)
+1.82 inches (46.2 mm)
+0.83 inch (21.2 mm)
+Height:
+1.82 inches (46.2 mm)
+Width:
+1.97 inches (50.1 mm)
+Depth:
+0.83 inch (21.2 mm)
+Weight (AirPods 5):
+1.14 ounces (32.3 grams)
+Weight (AirPods 5 with Wireless Charging Case):
+1.22 ounces (34.7 grams)
+Charging Case
+AirPods 5
+Works with USB‑C connector
+AirPods 5 with Wireless Charging Case
+
+Works with USB‑C connector, Apple Watch charger, or Qi‑certified chargers
+Includes a speaker for use with Find My11
+Battery
+AirPods 5
+Up to 4 hours of battery life on a single charge with Active Noise Cancellation enabled12
+Up to 6 hours of battery life on a single charge with noise control off12
+Battery life with charging case
+Up to 20 hours of battery life with Active Noise Cancellation enabled13
+5 minutes in the case provides around 1 hour of battery life14
+AirPods 5 with Wireless Charging Case
+Up to 5 hours of battery life on a single charge with Active Noise Cancellation enabled15
+Up to 7 hours of battery life on a single charge with noise control off15
+Battery life with charging case
+Up to 22 hours of battery life with Active Noise Cancellation enabled16
+5 minutes in the case provides around 1 hour of battery life17
+Connectivity
+Bluetooth 5.3 wireless technology
+In the Box
+AirPods 5
+Charging Case (USB‑C)
+Documentation
+AirPods 5 with Wireless Charging Case
+Charging Case (USB‑C) with speaker
+Documentation
+Accessibility
+Accessibility features help people with disabilities get the most out of their new AirPods.
+Features include:
+Live Listen audio18
+Headphone levels
+Headphone Accommodations
+System Requirements
+iPhone models with the latest version of iOS
+iPad models with the latest version of iPadOS
+Apple Watch models with the latest version of watchOS
+Mac models with the latest version of macOS
+Apple TV models with the latest version of tvOS
+Apple Vision Pro with the latest version of visionOS
+AirPods can be used as wireless Bluetooth headphones with Apple devices using earlier software and with non‑Apple devices, but functionality may be limited.
+See the AirPods 5 Product Environmental Report (PDF) (opens in new tab)
+Progress toward Apple 2030
+
+
+---
+
+V models with the latest version of tvOS
+Apple Vision Pro with the latest version of visionOS
+AirPods can be used as wireless Bluetooth headphones with Apple devices using earlier software and with non‑Apple devices, but functionality may be limited.
+See the AirPods 5 Product Environmental Report (PDF) (opens in new tab)
+Progress toward Apple 2030
+
+Apple 2030 is our goal to be carbon neutral across our value chain. We design our products to be less carbon intensive by prioritizing the use of recycled and renewable content and low‑carbon materials while focusing on the energy efficiency of our software and hardware.
+See Apple’s commitment
+Materials
+AirPods 5 are made with 40% recycled content,19 including:
+100% recycled aluminum in the hinge of the case
+100% recycled cobalt in the battery
+100% recycled gold plating and tin solder in all Apple‑designed printed circuit boards
+95% recycled lithium in the battery
+70% recycled plastic in the wireless charging case20
+100% recycled rare earth elements in all magnets
+Packaging
+100% fiber-based packaging21
+Energy
+35% of manufacturing electricity for AirPods 5 is sourced from renewable electricity22
+Exceeds U.S. Department of Energy requirements for battery charger systems23
+Waste
+No established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Program24
+Smarter Chemistry25
+All of the materials used in Apple products, accessories, and packaging are covered by the requirements of our Regulated Substances Specification, which was one of the first in industry to restrict the use of key substances of concern. See the latest Environmental Progress Report to understand Apple’s recent efforts in phasing out these chemistries.
+Source footnote footnote-1: Device performance and noise control features like Active Noise Cancellation, Adaptive Audio, and Transparency can be affected by debris or earwax buildup. Clean the device regularly to maintain performance and full feature functionality. Refer to support.apple.com/102672 for cleaning instructions.
+Source footnote footnote-2: Requires a compatible Apple device running the latest operating system software.
+
+
+---
+
+oise Cancellation, Adaptive Audio, and Transparency can be affected by debris or earwax buildup. Clean the device regularly to maintain performance and full feature functionality. Refer to support.apple.com/102672 for cleaning instructions.
+Source footnote footnote-2: Requires a compatible Apple device running the latest operating system software.
+
+Source footnote footnote-3: Compatible hardware and software required. Works with compatible content in supported apps. Not all content available in Dolby Atmos. iPhone with TrueDepth camera required to create a personal profile for Spatial Audio, which will sync across Apple devices running the latest operating system software, including iOS, iPadOS, macOS, and tvOS. Personalized Spatial Audio is not available when using other devices.
+Source footnote footnote-4: Available on compatible Apple devices with the latest operating system software when paired with compatible AirPods with the latest firmware when Apple Intelligence is turned on. Available in beta. Some features may not be available in all regions or languages; for more information, see Feature Availability.
+
+
+---
+
+er devices.
+Source footnote footnote-4: Available on compatible Apple devices with the latest operating system software when paired with compatible AirPods with the latest firmware when Apple Intelligence is turned on. Available in beta. Some features may not be available in all regions or languages; for more information, see Feature Availability.
+
+Source footnote footnote-5: Apple Intelligence is available with Siri and device language set to Chinese (Simplified), Chinese (Traditional), Danish, Dutch, English, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Spanish, Swedish, Turkish, or Vietnamese. Some features may not be available in all regions or languages. Some devices may not be available in all regions. Siri AI is available in beta in iOS 27, macOS 27, and watchOS 27 and requires an Apple Intelligence‑enabled device set to a supported language. Available in English to start. Siri AI will not be initially available in the EU on iOS, iPadOS, and watchOS. Certain Apple Intelligence features that rely on server‑side models are subject to daily usage limits, including but not limited to Siri AI, Intelligent Photo Editing Tools, Image Playground, and AFM 3 Cloud models in Shortcuts. Daily limits may vary by feature, request complexity, system demand, system policies, and other factors. Expanded access to such features will be available for a fee in the future. Use of these features is subject to the Apple Intelligence Terms and Conditions. Learn more at apple.com/apple-intelligence. Hands‑free access to Siri AI works on all AirPods.
+Source footnote footnote-6: Available in compatible applications with the latest firmware.
+Source footnote footnote-7: Available with the latest firmware when paired with compatible Apple devices running the latest operating system software.
+
+
+---
+
+ Conditions. Learn more at apple.com/apple-intelligence. Hands‑free access to Siri AI works on all AirPods.
+Source footnote footnote-6: Available in compatible applications with the latest firmware.
+Source footnote footnote-7: Available with the latest firmware when paired with compatible Apple devices running the latest operating system software.
+
+Source footnote footnote-8: Siri and activating with just “Siri” may not be available in all languages or in all areas, and features may vary by area. Compatible device and internet access required. Cellular data charges may apply. Activating with just “Siri” is not available on AirPods with the H1 headphone chip and Intel-based Mac computers. Devices must support and have the latest operating system software.
+Source footnote footnote-9: AirPods 5 are dust, sweat, and water resistant for non-water sports and exercise. Products including charging case were tested under controlled laboratory conditions, and have a rating of IP57 under IEC standard 60529. Dust, sweat, and water resistance are not permanent conditions and resistance might decrease as a result of normal wear. Do not attempt to charge when wet; refer to support.apple.com/kb/HT210711 for cleaning and drying instructions.
+Source footnote footnote-10: Size and weight vary by configuration and manufacturing process.
+Source footnote footnote-11: Find My functionality requires iOS 27 or later.
+Source footnote footnote-12: Testing conducted by Apple in July and August 2026 using preproduction AirPods 5 paired with preproduction iPhone 18 Pro units, all with prerelease software. The playlist consisted of 358 unique audio tracks purchased from the iTunes Store (256-Kbps AAC encoding). Volume was set to 50%, Spatial Audio and Conversation Awareness were off, and Noise Control was set to Active Noise Cancellation. With Noise Control turned off, listening time was up to 6 hours. Testing consisted of full AirPods battery discharge while playing audio until the first AirPod stopped playback. Battery life depends on device settings, environment, usage, and many other factors.
+
+
+---
+
+nversation Awareness were off, and Noise Control was set to Active Noise Cancellation. With Noise Control turned off, listening time was up to 6 hours. Testing consisted of full AirPods battery discharge while playing audio until the first AirPod stopped playback. Battery life depends on device settings, environment, usage, and many other factors.
+
+Source footnote footnote-13: Testing conducted by Apple in July and August 2026 using preproduction AirPods 5 and charging case paired with preproduction iPhone 18 Pro units, all with prerelease software. The playlist consisted of 358 unique audio tracks purchased from the iTunes Store (256-Kbps AAC encoding). Volume was set to 50%, Spatial Audio and Conversation Awareness were off, and Noise Control was set to Active Noise Cancellation. Testing consisted of full AirPods battery discharge while playing audio until the first AirPod stopped playback. The drained AirPods were charged to 100 percent, then audio playback was resumed until the first AirPod stopped playback. This cycle was repeated until both the AirPods and charging case were fully discharged. Battery life depends on device settings, environment, usage, and many other factors.
+Source footnote footnote-14: Testing conducted by Apple in July and August 2026 using preproduction AirPods 5 and charging case paired with preproduction iPhone 18 Pro units, all with prerelease software. The playlist consisted of 358 unique audio tracks purchased from the iTunes Store (256‑Kbps AAC encoding). Volume was set to 50%; Spatial Audio, Conversation Awareness, and Noise Control were all off. 5‑Minute charge testing conducted with drained AirPods that were charged for 5 minutes, then audio playback was started until the first AirPod stopped playback. Battery life depends on device settings, environment, usage, and many other factors.
+
+
+---
+
+ncoding). Volume was set to 50%; Spatial Audio, Conversation Awareness, and Noise Control were all off. 5‑Minute charge testing conducted with drained AirPods that were charged for 5 minutes, then audio playback was started until the first AirPod stopped playback. Battery life depends on device settings, environment, usage, and many other factors.
+
+Source footnote footnote-15: Testing conducted by Apple in July and August 2026 using preproduction AirPods 5 with Wireless Charging Case paired with preproduction iPhone 18 Pro units, all with prerelease software. The playlist consisted of 358 unique audio tracks purchased from the iTunes Store (256-Kbps AAC encoding). Volume was set to 50%, Spatial Audio and Conversation Awareness were off, and Noise Control was set to Active Noise Cancellation. With Noise Control turned off, listening time was up to 7 hours. Testing consisted of full AirPods battery discharge while playing audio until the first AirPod stopped playback. Battery life depends on device settings, environment, usage, and many other factors.
+Source footnote footnote-16: Testing conducted by Apple in July and August 2026 using preproduction AirPods 5 with Wireless Charging Case paired with preproduction iPhone 18 Pro units, all with prerelease software. The playlist consisted of 358 unique audio tracks purchased from the iTunes Store (256-Kbps AAC encoding). Volume was set to 50%, Spatial Audio and Conversation Awareness were off, and Noise Control was set to Active Noise Cancellation. Testing consisted of full AirPods battery discharge while playing audio until the first AirPod stopped playback. The drained AirPods were charged to 100 percent, then audio playback was resumed until the first AirPod stopped playback. This cycle was repeated until both the AirPods and charging case were fully discharged. Battery life depends on device settings, environment, usage, and many other factors.
+
+
+---
+
+playing audio until the first AirPod stopped playback. The drained AirPods were charged to 100 percent, then audio playback was resumed until the first AirPod stopped playback. This cycle was repeated until both the AirPods and charging case were fully discharged. Battery life depends on device settings, environment, usage, and many other factors.
+
+Source footnote footnote-17: Testing conducted by Apple in July and August 2026 using preproduction AirPods 5 with Wireless Charging Case paired with preproduction iPhone 18 Pro units, all with prerelease software. The playlist consisted of 358 unique audio tracks purchased from the iTunes Store (256‑Kbps AAC encoding). Volume was set to 50%; Spatial Audio, Conversation Awareness, and Noise Control were all off. 5‑Minute charge testing conducted with drained AirPods that were charged for 5 minutes, then audio playback was started until the first AirPod stopped playback. Battery life depends on device settings, environment, usage, and many other factors.
+Source footnote footnote-18: Requires the latest version of iOS or iPadOS.
+Source footnote footnote-19: Product recycled or renewable content is the mass of certified recycled material relative to the overall mass of the device, not including packaging or in-box accessories. Recycled and renewable plastic content calculation includes mass balance allocation.
+Source footnote footnote-20: Calculation includes mass balance allocation.
+Source footnote footnote-21: Breakdown of U.S. retail packaging by weight. Adhesives, inks, and coatings are excluded from our calculations of plastic content and packaging weight. Fiber sourcing requirements are defined in Apple’s Responsible Fiber Specification. We consider wood fibers to include bamboo.
+
+
+---
+
+ulation includes mass balance allocation.
+Source footnote footnote-21: Breakdown of U.S. retail packaging by weight. Adhesives, inks, and coatings are excluded from our calculations of plastic content and packaging weight. Fiber sourcing requirements are defined in Apple’s Responsible Fiber Specification. We consider wood fibers to include bamboo.
+
+Source footnote footnote-22: We estimate the percentage of electricity‑related emissions in our manufacturing that is sourced from low‑carbon electricity by attributing to our carbon model low‑carbon energy procured by our suppliers in the prior fiscal year, based on the supplier manufacturing allocations at time of product launch. Included in this number is only low‑carbon electricity that Apple or its suppliers have procured as part of Apple’s Supplier Clean Energy Program.
+Source footnote footnote-23: Efficiency performance is based on the U.S. Department of Energy Federal Energy Conservation Standards for Battery Chargers.
+Source footnote footnote-24: All established final assembly supplier sites — those that have been Apple suppliers for more than one year — for AirPods 5 are third-party verified as Zero Waste by UL LLC (UL 2799 Standard). UL requires at least 90% diversion through methods other than waste to energy to achieve Zero Waste to Landfill (Silver 90–94%, Gold 95–99%, and Platinum 100%) designations.
+
+
+---
+
+inal assembly supplier sites — those that have been Apple suppliers for more than one year — for AirPods 5 are third-party verified as Zero Waste by UL LLC (UL 2799 Standard). UL requires at least 90% diversion through methods other than waste to energy to achieve Zero Waste to Landfill (Silver 90–94%, Gold 95–99%, and Platinum 100%) designations.
+
+Source footnote footnote-25: Apple’s Regulated Substances Specification describes Apple’s restrictions on the use of certain chemical substances in materials in Apple products, accessories, manufacturing processes, and packaging used for shipping products to Apple’s end-customers. Restrictions are derived from international laws or directives, regulatory agencies, eco-label requirements, environmental standards, and Apple policies. Every Apple product is free of PVC and phthalates except for AC power cords in India, Thailand (for 2-prong AC power cords), and South Korea, where we continue to seek government approval for our PVC and phthalates replacement. Apple products comply with the European Union Directive 2011/65/EU and its amendments, including exemptions for the use of lead such as high-temperature solder. Apple is working to phase out the use of these exempted substances for new products where technically possible.

@@ -1,0 +1,599 @@
+iPhone 17 Technical Specifications
+iPhone 17
+Finish
+Black, White, Mist Blue, Sage, Lavender
+Aluminum design
+Ceramic Shield 2 front
+Color‑infused glass back (Black, Mist Blue, Sage, Lavender)
+Capacity1
+256GB
+512GB
+Size and Weight2
+Width:
+2.81 inches(71.5 mm)
+Height:
+5.89 inches(149.6 mm)
+Depth:
+0.31 inch(7.95 mm)
+Weight:
+6.24 ounces (177 grams)
+Display
+Super Retina XDR display
+6.3‑inch (diagonal) all‑screen OLED display
+2622‑by‑1206-pixel resolution at 460 ppi
+Dynamic Island
+Always-On display
+ProMotion technology with adaptive refresh rates up to 120Hz
+HDR display
+True Tone
+Wide color (P3)
+Haptic Touch
+2,000,000:1 contrast ratio (typical)
+1000 nits max brightness (typical); 1600 nits peak brightness (HDR); 3000 nits peak brightness (outdoor); 1 nit minimum brightness
+Fingerprint-resistant oleophobic coating
+Anti-reflective coating
+Support for display of multiple languages and characters simultaneously
+The iPhone 17 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.27 inches diagonally (actual viewable area is less).
+Splash, Water, and Dust Resistant3
+Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529
+Apple Intelligence and Siri AI
+The next generation of Apple Intelligence is centered around you, integrated into your apps, and built with privacy. Apple Intelligence powers Siri AI — an entirely new version of Siri that’s more personal, conversational, and powerful, along with helpful features across apps.4
+Learn more
+Chip
+A19 chip
+6‑core CPU with 2 performance and 4 efficiency cores
+5‑core GPU with Neural Accelerators
+16‑core Neural Engine
+Hardware-accelerated ray tracing
+Camera
+48MP Dual Fusion camera system
+48MP Fusion Main: 26 mm, ƒ/1.6 aperture, sensor-shift optical image stabilization, 100% Focus Pixels, support for super-high-resolution photos (24MP and 48MP)
+Also enables 12MP optical-quality 2x Telephoto: 52 mm, ƒ/1.6 aperture, sensor-shift optical image stabilization, 100% Focus Pixels
+
+
+---
+
+celerated ray tracing
+Camera
+48MP Dual Fusion camera system
+48MP Fusion Main: 26 mm, ƒ/1.6 aperture, sensor-shift optical image stabilization, 100% Focus Pixels, support for super-high-resolution photos (24MP and 48MP)
+Also enables 12MP optical-quality 2x Telephoto: 52 mm, ƒ/1.6 aperture, sensor-shift optical image stabilization, 100% Focus Pixels
+
+48MP Fusion Ultra Wide: 13 mm, ƒ/2.2 aperture and 120° field of view, Hybrid Focus Pixels, support for super-high-resolution photos (24MP and 48MP)
+2x optical zoom in, 2x optical zoom out; 4x optical zoom range
+Digital zoom up to 10x
+Sapphire crystal lens cover
+True Tone flash
+Photonic Engine
+Deep Fusion
+Smart HDR 5
+Next-generation portraits with Focus and Depth Control
+Portrait Lighting with six effects
+Night mode
+Panorama (up to 63MP)
+Latest-generation Photographic Styles
+Spatial photos
+48MP macro photography
+Wide color capture for photos and Live Photos
+Lens correction (Fusion Ultra Wide)
+Advanced red-eye correction
+Auto image stabilization
+Burst mode
+Photo geotagging
+Image formats captured: HEIF and JPEG
+Video Recording
+4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, or 60 fps
+1080p Dolby Vision video recording at 25 fps, 30 fps, or 60 fps
+720p Dolby Vision video recording at 30 fps
+Cinematic mode up to 4K Dolby Vision at 30 fps
+Action mode up to 2.8K Dolby Vision at 60 fps
+Macro video recording, including slo-mo and time-lapse
+Slo‑mo video support for 1080p at 120 fps or 240 fps
+Spatial video recording at 1080p at 30 fps
+Dual Capture up to 4K Dolby Vision at 30 fps
+Time‑lapse video with stabilization
+Night mode Time-lapse
+QuickTake video up to 4K Dolby Vision at 60 fps
+Sensor-shift optical image stabilization for video (Fusion Main)
+Digital zoom up to 6x
+Audio zoom
+True Tone flash
+Cinematic video stabilization (4K, 1080p, and 720p)
+Continuous autofocus video
+Take 8MP still photos while recording 4K video
+Playback zoom
+Video formats recorded: HEVC and H.264
+Spatial Audio and stereo recording
+Wind noise reduction
+Audio Mix
+Front Camera
+18MP Center Stage camera
+ƒ/1.9 aperture
+Autofocus with Focus Pixels
+Retina Flash
+Tap to zoom and rotate
+Center Stage for photos
+Ultra-stabilized video
+Dual Capture
+
+
+---
+
+ video
+Take 8MP still photos while recording 4K video
+Playback zoom
+Video formats recorded: HEVC and H.264
+Spatial Audio and stereo recording
+Wind noise reduction
+Audio Mix
+Front Camera
+18MP Center Stage camera
+ƒ/1.9 aperture
+Autofocus with Focus Pixels
+Retina Flash
+Tap to zoom and rotate
+Center Stage for photos
+Ultra-stabilized video
+Dual Capture
+
+Center Stage for video calls
+Photonic Engine
+Deep Fusion
+Smart HDR 5
+Next-generation portraits with Focus and Depth Control
+Portrait Lighting with six effects
+Animoji and Memoji
+Night mode
+Latest-generation Photographic Styles
+Wide color capture for photos and Live Photos
+Lens correction
+Auto image stabilization
+Burst mode
+4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, or 60 fps
+1080p Dolby Vision video recording at 25 fps, 30 fps, or 60 fps
+Cinematic mode up to 4K Dolby Vision at 30 fps
+Slo-mo video support for 1080p at 120 fps
+Time‑lapse video with stabilization
+Night mode Time-lapse
+QuickTake video up to 4K at 60 fps in Dolby Vision
+Cinematic video stabilization (4K, 1080p, and 720p)
+Spatial Audio and stereo recording
+Wind noise reduction
+Audio Mix
+Power and Battery5
+Video playback Up to 30 hours
+Video playback (streamed) Up to 27 hours
+Built‑in rechargeable lithium‑ion battery
+Fast‑charge capable: Up to 50% charge in 20 minutes6 with 40W adapter or higher (available separately) paired with USB‑C charging cable Up to 50% charge in 30 minutes6 with 30W adapter or higher paired with MagSafe Charger (both available separately)
+Face ID
+Enabled by TrueDepth technology in the Center Stage front camera
+Peace of Mind
+Emergency SOS via satellite7
+Crash Detection8
+Roadside Assistance via satellite7
+Messages via satellite7
+Find My via satellite7
+Cellular and Wireless
+Model A3258**
+FDD‑5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n66, n70, n71, n75)
+TDD‑5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79)
+5G NR mmWave (Bands n258, n260, n261)
+FDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)
+TDD‑LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)
+UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)
+GSM/EDGE (850, 900, 1800, 1900 MHz)
+
+
+---
+
+6, n70, n71, n75)
+TDD‑5G NR (Bands n38, n40, n41, n48, n53, n77, n78, n79)
+5G NR mmWave (Bands n258, n260, n261)
+FDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)
+TDD‑LTE (Bands 34, 38, 39, 40, 41, 42, 48, 53)
+UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)
+GSM/EDGE (850, 900, 1800, 1900 MHz)
+
+5G (sub-6 GHz and mmWave) with 4x4 MIMO9
+Gigabit LTE with 4x4 MIMO9
+Apple N1 wireless networking chip
+Wi‑Fi 7 (802.11be) with 2x2 MIMO10
+Bluetooth 6
+Thread networking technology
+Apple second-generation Ultra Wideband chip11
+NFC with reader mode
+Express Cards with power reserve
+Location
+Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou, and NavIC)
+Digital compass
+Wi‑Fi
+Cellular
+iBeacon microlocation
+External Buttons and Connectors
+Volume up/down
+Action button
+Camera Control
+Side button
+Built‑in stereo speakerBuilt‑in microphone
+USB-C connector
+Built‑in microphones
+Built‑in stereo speaker
+Action button features
+Silent Mode, Focus, Camera, Visual Intelligence,12 Flashlight, Voice Memo, Recognize Music, Translate, Magnifier, Controls, Shortcut, or Accessibility
+Camera controls
+Exposure, Depth, Zoom, Cameras, Styles, Tone
+Charging and Expansion
+USB-C connector with support for:
+Charging
+DisplayPort
+USB 2 (up to 480Mb/s)
+MagSafe and Wireless Charging
+MagSafe wireless charging up to 25W6
+Qi2 wireless charging up to 25W6
+Magnet array
+Alignment magnet
+Accessory Identification NFC
+Magnetometer
+Sensors
+Face ID
+Barometer
+High dynamic range gyro
+High-g accelerometer
+Proximity sensor
+Dual ambient light sensors
+SIM Card
+Dual eSIM (two active eSIMs; stores eight or more eSIMs)13
+iPhone 17 uses advanced eSIM technology for more convenience and security (not compatible with physical SIM cards).
+Learn more about eSIM
+Learn more about traveling with eSIM
+Apple Pay
+Pay with your iPhone using Face ID in stores, within apps, and on the web
+Send and receive money in Messages with Apple Cash14
+Complete purchases made with Apple Pay on your Mac
+Pay for your ride using Express Transit15
+Learn more about Apple Pay
+Learn more about Apple Cash
+Apple Card
+Credit card created by Apple, designed for iPhone
+
+
+---
+
+SIM
+Apple Pay
+Pay with your iPhone using Face ID in stores, within apps, and on the web
+Send and receive money in Messages with Apple Cash14
+Complete purchases made with Apple Pay on your Mac
+Pay for your ride using Express Transit15
+Learn more about Apple Pay
+Learn more about Apple Cash
+Apple Card
+Credit card created by Apple, designed for iPhone
+
+Get unlimited 3% Daily Cash at Apple and select merchants when you use Apple Pay,16 2% with Apple Pay, and 1% everywhere else
+Use the Wallet app to apply for, manage, and use Apple Card
+Titanium, laser‑etched physical credit card for use where Apple Pay is not accepted yet
+Share with up to five people, 13 years or older, in your Family Sharing group17 to track expenses and manage spending
+Learn more about Apple Card
+Video Calling18
+FaceTime video calling over cellular or Wi‑Fi
+FaceTime HD (1080p) video calling over 5G or Wi-Fi
+Center Stage for video calling
+SharePlay
+Screen sharing
+Portrait mode in FaceTime video
+Spatial Audio
+Voice Isolation and Wide Spectrum microphone modes
+Zoom with rear-facing camera
+Audio Calling18
+FaceTime audio
+Voice over LTE (VoLTE)9
+Wi‑Fi calling9
+SharePlay
+Screen sharing
+Spatial Audio
+Voice Isolation and Wide Spectrum microphone modes
+Audio Playback
+Supported formats include AAC, APAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus, and Dolby Atmos
+Spatial Audio playback
+User‑configurable maximum volume limit
+Video Playback
+Supported formats include HEVC, H.264, and AV1
+HDR with Dolby Vision, HDR10+/HDR10, and HLG
+Up to 4K HDR AirPlay for mirroring, photos, and video out to Apple TV (2nd generation or later) or AirPlay‑enabled smart TV
+Video mirroring and video out support: Up to 4K HDR through native DisplayPort output over USB‑C or USB‑C Digital AV Adapter (model A2119; adapter sold separately)19
+Siri20
+Get help with everyday tasks like sending messages, setting reminders, and more
+Activate hands‑free with only your voice using “Siri” or “Hey Siri,” or use Type to Siri
+Protected by the strongest privacy of any intelligent assistant
+Powered by Apple Intelligence, Siri is more natural and helpful4
+Learn more about Siri
+Operating System
+
+
+---
+
+ly)19
+Siri20
+Get help with everyday tasks like sending messages, setting reminders, and more
+Activate hands‑free with only your voice using “Siri” or “Hey Siri,” or use Type to Siri
+Protected by the strongest privacy of any intelligent assistant
+Powered by Apple Intelligence, Siri is more natural and helpful4
+Learn more about Siri
+Operating System
+
+iOSiOS is the world’s most personal and secure mobile operating system, packed with powerful features and designed to protect your privacy.
+Privacy
+iPhone is built from the ground up to protect your personal information. Every iPhone has secure authentication. Apps need your permission to track your activity across other companies’ apps or websites. Your iMessages and FaceTime video calls are encrypted end‑to‑end. And much more.
+Learn more about privacy features
+Accessibility
+Built-in accessibility features supporting vision, mobility, hearing, speech, and cognitive needs help you get the most out of your iPhone — in the ways that work best for you.
+Learn more
+Features include:
+VoiceOver
+Zoom
+Magnifier
+Voice Control
+Switch Control
+AssistiveTouch
+Eye Tracking
+RTT and TTY support
+Closed Captions
+Live Captions
+Personal Voice
+Live Speech
+Type to Siri
+Vocal Shortcuts
+Spoken Content
+Built-in Apps
+App Store
+Books
+Calculator
+Calendar
+Camera
+Clock
+Compass
+Contacts
+FaceTime
+Files
+Find My
+Fitness
+Freeform
+Games
+GarageBand
+Health
+Home
+iMovie
+iTunes Store
+Journal
+Keynote
+Magnifier
+Mail
+Maps
+Measure
+Messages
+Music
+News
+Notes
+Numbers
+Pages
+Passwords
+Phone
+Photos
+Podcasts
+Preview
+Reminders
+Safari
+Settings
+Shortcuts
+Stocks
+Tips
+Translate
+TV
+Voice Memos
+Wallet
+Watch
+Weather
+For a complete list of Apple apps available on iPhone, see apple.com/apps.
+Rating for Hearing Aids
+Hearing Aid Compatible
+System Requirements
+Apple Account (required for some features)
+Internet access21
+Syncing to a Mac or PC requires:
+macOS Catalina 10.15 or later using the Finder
+macOS High Sierra 10.13 through macOS Mojave 10.14.6 using iTunes 12.8 or later
+Windows 10 or later using iTunes 12.12.10 or later (free download from apple.com/itunes/download)
+Environmental Requirements
+Operating ambient temperature:
+32° to 95° F (0° to 35° C)
+Nonoperating temperature:
+
+
+---
+
+ PC requires:
+macOS Catalina 10.15 or later using the Finder
+macOS High Sierra 10.13 through macOS Mojave 10.14.6 using iTunes 12.8 or later
+Windows 10 or later using iTunes 12.12.10 or later (free download from apple.com/itunes/download)
+Environmental Requirements
+Operating ambient temperature:
+32° to 95° F (0° to 35° C)
+Nonoperating temperature:
+
+−4° to 113° F (−20° to 45° C)
+Relative humidity:
+5% to 95% noncondensing
+Operating altitude:
+tested up to 10,000 feet (3000 m)
+Languages
+Language support
+English (Australia, UK, U.S.), Chinese (Simplified, Traditional, Traditional – Hong Kong), French (Canada, France), German, Italian, Japanese, Korean, Spanish (Latin America, Spain), Arabic, Bulgarian, Catalan, Croatian, Czech, Danish, Dutch, Finnish, Greek, Hebrew, Hindi, Hungarian, Indonesian, Kazakh, Malay, Norwegian, Polish, Portuguese (Brazil, Portugal), Romanian, Russian, Slovak, Swedish, Thai, Turkish, Ukrainian, Vietnamese
+Learn more about feature availability
+In the Box
+iPhone with iOS 27
+USB-C Charge Cable (1 m)
+Documentation
+iPhone 17 is designed to reduce environmental impact:22
+See the iPhone 17 Product Environmental Report (PDF)
+Progress toward Apple 2030
+Apple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonize products is rigorous and focuses on transitioning to low-carbon electricity, designing with recycled and low-carbon materials, and prioritizing lower-carbon ways of shipping products, like ocean freight.
+See Apple’s commitment
+Materials
+iPhone 17 is made with 30% recycled content,23 including:
+85% recycled aluminum in the enclosure
+100% recycled cobalt and 95% recycled lithium in the battery
+100% recycled gold plating and tin solder in all Apple-designed printed circuit boards
+100% recycled gold wire in all cameras and gold plating in all connectors
+100% recycled tungsten and copper wire in the Taptic Engine
+100% recycled rare earth elements in all magnets
+80% recycled plastic in the antenna lines made from textile waste
+Energy
+35% of manufacturing electricity for iPhone 17 is sourced from renewable electricity24
+Exceeds U.S. Department of Energy requirements for battery charger systems25
+
+
+---
+
+ors
+100% recycled tungsten and copper wire in the Taptic Engine
+100% recycled rare earth elements in all magnets
+80% recycled plastic in the antenna lines made from textile waste
+Energy
+35% of manufacturing electricity for iPhone 17 is sourced from renewable electricity24
+Exceeds U.S. Department of Energy requirements for battery charger systems25
+
+Packaging
+100% fiber-based packaging26
+iPhone 17 packaging is designed to be more efficient than iPhone 16 boxes, enabling us to ship 35% more units per trip27
+Waste
+No established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Program28
+Smarter chemistry
+29
+All of the materials used in Apple products, accessories, and packaging are covered by the requirements of our Regulated Substances Specification, which was one of the first in industry to restrict the use of key substances of concern. See the latest Environmental Progress Report to understand Apple’s recent efforts in phasing out these chemistries.
+Trade in your smartphone for credit.
+With Apple Trade In, you can get credit toward a new iPhone when you trade in an eligible smartphone.30 It’s good for you and the planet.
+Learn more about Apple trade in
+Lease your next iPhone, only at Apple.
+Join Apple Upgrade and lease a new iPhone with low monthly payments for 12 or 24 months. Then upgrade when your term is complete.31
+Learn more Apple upgrade
+Still have questions? Just ask.
+You won’t find a better place to buy iPhone. We know about carriers, payment options, and more. And we make it easy to understand.
+Learn moreabout buying iPhone
+
+
+---
+
+Join Apple Upgrade and lease a new iPhone with low monthly payments for 12 or 24 months. Then upgrade when your term is complete.31
+Learn more Apple upgrade
+Still have questions? Just ask.
+You won’t find a better place to buy iPhone. We know about carriers, payment options, and more. And we make it easy to understand.
+Learn moreabout buying iPhone
+
+Source footnote footnote-1: * Pricing for iPhone 17 includes a $30 connectivity discount that requires carrier activation with AT&T, T-Mobile, or Verizon. Financing available to qualified customers, subject to credit approval and credit limit, and requires you to select Apple Card Monthly Installments (ACMI) as your payment type at checkout at Apple. In order to buy an iPhone with ACMI, you must select one of the following carriers (but you cannot use a prepaid carrier plan): AT&T, T-Mobile, or Verizon. An iPhone purchased with ACMI is always unlocked, so you can switch carriers at any time, subject to your carrier’s terms. Taxes and shipping on items purchased using ACMI are subject to your card’s variable APR, not the ACMI 0% APR. ACMI is not available for purchases made at special storefronts or when using such special discounts in-store at Apple, except ACMI is available at the Education storefront and with the Education discount. The last month’s payment for each product will be the product’s purchase price, less all other payments at the monthly payment amount. ACMI is subject to change at any time for any reason, including but not limited to installment term lengths and eligible products. See the Apple Card Customer Agreement for more information about ACMI.
+Source footnote footnote-2: ** To identify your iPhone model number, see support.apple.com/108044. For details on 5G and LTE support, contact your carrier and see apple.com/iphone/cellular. Cellular technology support is based on iPhone model number and configuration for GSM networks.
+
+
+---
+
+ Apple Card Customer Agreement for more information about ACMI.
+Source footnote footnote-2: ** To identify your iPhone model number, see support.apple.com/108044. For details on 5G and LTE support, contact your carrier and see apple.com/iphone/cellular. Cellular technology support is based on iPhone model number and configuration for GSM networks.
+
+Source footnote footnote-3: Available space is less and varies due to many factors. A standard configuration uses approximately 12GB to 24GB of space, including iOS 27 with its latest features and Apple apps that can be deleted. Apple Intelligence on‑device models use approximately 7GB of space and can be deleted if Apple Intelligence is turned off. Turning on Apple Intelligence will download the models again. Apple apps that can be deleted use about 4.5GB of space, and you can download them back from the App Store. Storage capacity subject to change based on software version, settings, and iPhone model.
+Source footnote footnote-4: Size and weight vary by configuration and manufacturing process.
+Source footnote footnote-5: iPhone 17 is splash, water, and dust resistant and was tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 6 meters up to 30 minutes). Splash, water, and dust resistance are not permanent conditions. Resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.
+Source footnote footnote-6:
+
+
+---
+
+tandard 60529 (maximum depth of 6 meters up to 30 minutes). Splash, water, and dust resistance are not permanent conditions. Resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.
+Source footnote footnote-6:
+
+Apple Intelligence is available with Siri and device language set to Chinese (Simplified), Chinese (Traditional), Danish, Dutch, English, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Spanish, Swedish, Turkish, or Vietnamese. Some features may not be available in all regions or languages. Some devices may not be available in all regions. Siri AI is available in beta in iOS 27 and requires an Apple Intelligence–enabled device set to a supported language. Available in English to start. Siri AI will not be initially available in the EU on iOS. Certain Apple Intelligence features that rely on server-side models are subject to daily usage limits, including but not limited to Siri AI, Intelligent Photo Editing Tools, Image Playground, and AFM 3 Cloud models in Shortcuts. Daily limits may vary by feature, request complexity, system demand, system policies, and other factors. Expanded access to such features will be available for a fee in the future. Use of these features is subject to the Apple Intelligence Terms and Conditions. Learn more at apple.com/apple-intelligence.
+Source footnote footnote-7: All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced. Battery life and charge cycles vary by use and settings. See apple.com/batteries and apple.com/iphone/battery.html for more information.
+
+
+---
+
+igence.
+Source footnote footnote-7: All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced. Battery life and charge cycles vary by use and settings. See apple.com/batteries and apple.com/iphone/battery.html for more information.
+
+Source footnote footnote-8: MagSafe wireless charging up to 25W with 30W power adapter or higher. Testing conducted by Apple in July 2025 using preproduction iPhone 17 units and software, USB‑C Charge Cable with Apple 40W Dynamic Power Adapter with 60W Max (Model A3351), and Apple MagSafe Chargers (1-meter Model A3502 and 2-meter Model A3503) with Apple 30W USB-C Power Adapter (Model A2164) or Apple 40W Dynamic Power Adapter with 60W Max (Model A3351). Fast-charge testing conducted with drained iPhone units. Times measured from the appearance of the Apple logo as the unit started up. Charge time varies with adapter, settings, usage, and environmental factors; actual results will vary.
+Source footnote footnote-9: Satellite features are included for free for two years with the activation of any iPhone 14 or later model. Connection and response times vary based on location, site conditions, and other factors. Some satellite features require a carrier plan. SMS messaging via satellite is available on supported carriers. SMS message rates may apply. Satellite connectivity is provided by Globalstar and its affiliates. See support.apple.com/105097 for more information.
+Source footnote footnote-10: iPhone 14 and later can detect a severe car crash and call for help. Requires a cellular connection, satellite connectivity, or Wi‑Fi calling.
+Source footnote footnote-11: Data plan required. 5G, Gigabit LTE, VoLTE, and Wi-Fi calling are available in select markets and through select carriers. Speeds are based on theoretical throughput and vary based on site conditions and carrier. For details on 5G and LTE support, contact your carrier and see apple.com/iphone/cellular.
+Source footnote footnote-12: Wi‑Fi 7 available in countries and regions where supported.
+Source footnote footnote-13: Ultra Wideband availability varies by region.
+
+
+---
+
+ers. Speeds are based on theoretical throughput and vary based on site conditions and carrier. For details on 5G and LTE support, contact your carrier and see apple.com/iphone/cellular.
+Source footnote footnote-12: Wi‑Fi 7 available in countries and regions where supported.
+Source footnote footnote-13: Ultra Wideband availability varies by region.
+
+Source footnote footnote-14: Visual intelligence is available on any Apple Intelligence–enabled iPhone. Some capabilities may not be available in all languages and regions. For more details, see support.apple.com/121115#visual-intelligence.
+Source footnote footnote-15: iPhone 17 is activated with an eSIM and does not support a physical SIM. Use of an eSIM requires a carrier that supports eSIM and a wireless service plan. See your carrier for details. To learn more, visit apple.com/esim.
+Source footnote footnote-16:
+
+
+---
+
+. For more details, see support.apple.com/121115#visual-intelligence.
+Source footnote footnote-15: iPhone 17 is activated with an eSIM and does not support a physical SIM. Use of an eSIM requires a carrier that supports eSIM and a wireless service plan. See your carrier for details. To learn more, visit apple.com/esim.
+Source footnote footnote-16:
+
+Apple Cash services are provided by Green Dot Bank, Member FDIC. Apple Payments Services LLC, a subsidiary of Apple Inc., is a service provider of Green Dot Bank for Apple Cash accounts. Neither Apple Inc. nor Apple Payments Services LLC is a bank. Learn more about Apple Cash Terms and Conditions from Green Dot Bank. Only available in the 50 United States, the District of Columbia, and Puerto Rico (collectively the “U.S.”). To send and receive money with an Apple Cash account, you must be 18 and a U.S. resident. If you’re under 18, your family organizer can set up Apple Cash for you as part of their Apple Cash Family account, but you may not be able to access features that require a supported payment card. Security checks may require more time to make funds available. Apple Cash Family accounts can only send or receive up to $2000 within a rolling seven-day period. Tap to Cash transactions can only be used to send or receive up to $2000 within a rolling seven-day period. Other limits apply, see Apple Cash Terms and Conditions from Green Dot for details. To access and use all Apple Cash features, you must register your Apple Cash account and have an eligible Apple device with Wallet that has the latest version of iOS. All communications from Apple and Green Dot Bank about Apple Cash (including transactional and marketing communications) and customer service support are available in English. Certain communications about Apple Cash can be viewed in another language depending on your device language settings.
+Source footnote footnote-17: Available only in select cities and transit systems. Requires eligible device and OS version. See here for details.
+Source footnote footnote-18: Merchant offers may change at any time.
+
+
+---
+
+lable in English. Certain communications about Apple Cash can be viewed in another language depending on your device language settings.
+Source footnote footnote-17: Available only in select cities and transit systems. Requires eligible device and OS version. See here for details.
+Source footnote footnote-18: Merchant offers may change at any time.
+
+Source footnote footnote-19: Apple Card Family Participants and Co-Owners do not need to have a familial relationship but must be part of the same Apple Family Sharing group.
+Source footnote footnote-20: FaceTime calling requires a FaceTime‑enabled device for the caller and recipient and a Wi‑Fi connection. Availability over a cellular network depends on carrier policies; data charges may apply.
+Source footnote footnote-21: Standard dynamic range video content only.
+Source footnote footnote-22: Siri may not be available in all languages or in all areas, and features may vary by area. Internet access required. Cellular data charges may apply.
+Source footnote footnote-23: Wireless broadband recommended; fees may apply.
+Source footnote footnote-24: Data accurate as of product launch.
+Source footnote footnote-25: Product recycled or renewable content is the mass of certified recycled material relative to the overall mass of the device, not including packaging or in-box accessories.
+Source footnote footnote-26: We estimate the percentage of electricity-related emissions in our manufacturing that is sourced from low-carbon electricity by attributing to our carbon model low-carbon energy procured by our suppliers in the prior fiscal year, based on the supplier manufacturing allocations at time of product launch. This calculation assesses the suppliers for iPhone 17. Included in this number is only low-carbon electricity that Apple or its suppliers have procured as part of Apple’s Supplier Clean Energy Program.
+Source footnote footnote-27: Efficiency performance is based on the U.S. Department of Energy Federal Energy Conservation Standards for Battery Chargers.
+
+
+---
+
+alculation assesses the suppliers for iPhone 17. Included in this number is only low-carbon electricity that Apple or its suppliers have procured as part of Apple’s Supplier Clean Energy Program.
+Source footnote footnote-27: Efficiency performance is based on the U.S. Department of Energy Federal Energy Conservation Standards for Battery Chargers.
+
+Source footnote footnote-28: Based on retail packaging as shipped by Apple. Breakdown of U.S. retail packaging by weight. Adhesives, inks, and coatings are excluded from our calculations of plastic content and packaging weight.
+Source footnote footnote-29: Based on the number of 10-unit boxes that fit onto a pallet compared to iPhone 16. The following locations have different savings based on various pallet configurations: Andorra, Canada, Cyprus, Greece, Italy, Portugal, South Korea, Spain, Switzerland, and U.S.
+Source footnote footnote-30: All established final assembly supplier sites — those that have been Apple suppliers for more than one year — for iPhone 17 are third-party verified as Zero Waste by UL LLC (UL 2799 Standard). UL requires at least 90% diversion through methods other than waste to energy to achieve Zero Waste to Landfill (Silver 90–94%, Gold 95–99%, and Platinum 100%) designations.
+
+
+---
+
+inal assembly supplier sites — those that have been Apple suppliers for more than one year — for iPhone 17 are third-party verified as Zero Waste by UL LLC (UL 2799 Standard). UL requires at least 90% diversion through methods other than waste to energy to achieve Zero Waste to Landfill (Silver 90–94%, Gold 95–99%, and Platinum 100%) designations.
+
+Source footnote footnote-31: Apple’s Regulated Substances Specification describes Apple’s restrictions on the use of certain chemical substances in materials in Apple products, accessories, manufacturing processes, and packaging used for shipping products to Apple’s end‑customers. Restrictions are derived from international laws or directives, regulatory agencies, eco‑label requirements, environmental standards, and Apple policies. Every Apple product is free of PVC and phthalates except for AC power cords in India, Thailand (for two‑prong AC power cords), and South Korea, where we continue to seek government approval for our PVC and phthalates replacement. Apple products comply with the European Union Directive 2011/65/EU and its amendments, including exemptions for the use of lead such as high-temperature solder. Apple is working to phase out the use of these exempted substances for new products where technically possible.
+
+
+---
+
+continue to seek government approval for our PVC and phthalates replacement. Apple products comply with the European Union Directive 2011/65/EU and its amendments, including exemptions for the use of lead such as high-temperature solder. Apple is working to phase out the use of these exempted substances for new products where technically possible.
+
+Source footnote footnote-32: Trade‑in values will vary based on the condition, year, and configuration of your eligible trade‑in device. Not all devices are eligible for credit. You must be at least the age of majority to be eligible to trade in for credit or for an Apple Gift Card. Trade‑in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In‑store trade‑in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in‑store and online trade‑in. Some stores may have additional requirements. Apple or its trade‑in partners reserve the right to refuse, cancel, or limit quantity of any trade‑in transaction for any reason. More details are available from Apple’s trade‑in partner for trade‑in and recycling of eligible devices. Restrictions and limitations may apply.
+Source footnote footnote-33:
+
+
+---
+
+Some stores may have additional requirements. Apple or its trade‑in partners reserve the right to refuse, cancel, or limit quantity of any trade‑in transaction for any reason. More details are available from Apple’s trade‑in partner for trade‑in and recycling of eligible devices. Restrictions and limitations may apply.
+Source footnote footnote-33:
+
+Apple Upgrade is a device leasing program available in the U.S. (excluding U.S. territories). Leases are provided by Klarna; subject to eligibility and credit approval, including final approval at checkout. To be eligible, you must be a U.S. resident, at least 18 years old (or the legal age in your state), have an accepted credit or debit card, and have an Apple Account. Additional eligibility criteria apply. Device must be in good condition upon return; damage fees may apply. For iPhone only: In order to lease an iPhone, you must select an eligible carrier (but you cannot use a prepaid carrier plan). Upgrades require entering into a new lease and are subject to eligibility and credit approval. Apple Upgrade is not available on refurbished devices or online at the following special stores: Apple Employee Purchase Plan; participating corporate Employee Purchase Programs; Apple at Work for small businesses or enterprises; Government, Education, or Veterans and Military Purchase Programs.

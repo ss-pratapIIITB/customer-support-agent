@@ -1,0 +1,517 @@
+11-inch iPad Air and 13-inch iPad Air Technical Specifications
+Models
+iPad Air 11‑inch
+iPad Air 13‑inch
+11 and 13 inch iPad Air
+Finish
+Blue
+Purple
+Starlight
+Space Gray
+Capacity1
+iPad Air 11‑inch
+128GB
+256GB
+512GB
+1TB
+iPad Air 13‑inch
+128GB
+256GB
+512GB
+1TB
+Size and Weight2
+height:
+9.74 inches (247.6 mm)
+width:
+7.02 inches (178.5 mm)
+depth:
+0.24 inch (6.1 mm)
+iPad Air 11‑inch
+Wi-Fi models:
+1.02 pounds (464 grams)
+Wi-Fi + Cellular models:
+1.03 pounds (465 grams)
+height:
+11.04 inches (280.6 mm)
+width:
+8.46 inches (214.9 mm)
+depth:
+0.24 inch (6.1 mm)
+iPad Air 13‑inch
+Wi-Fi models:
+1.36 pounds (616 grams)
+Wi-Fi + Cellular models:
+1.36 pounds (617 grams)
+Buttons and Connectors
+Speaker
+:Top
+Top button/Touch ID sensor
+:Top
+Camera
+:Front, to the right of the display
+Microphone
+:Front, to the right of the display
+Speaker
+:bottom
+Volume buttons
+:Right side, top
+Camera
+:Back
+Microphone
+:Back
+Magnetic connector
+:Back
+Smart Connector
+:Back
+USB‑C connector
+:bottom
+Camera
+:Front, to the right of the display
+In the Box
+iPad Air
+USB‑C Charge Cable (1 meter)
+20W USB‑C Power Adapter
+Display
+11”
+11 :inch model is 10.86 inches when measured diagonally as a rectangle
+Liquid Retina display
+LED backlit Multi‑Touch display with IPS technology
+2360-by-1640-pixel resolution at 264 ppi
+Wide color (P3)
+True Tone
+Fingerprint-resistant oleophobic coating
+Fully laminated
+Antireflective coating
+500 nits brightness
+Supports Apple Pencil Pro
+Supports Apple Pencil (USB‑C)
+Apple Pencil hover
+The display has rounded corners. When measured diagonally as a rectangle, the 11‑inch iPad Air is 10.86 inches. Actual viewable area is less.
+13”
+13 :inch model is 12.9 inches when measured diagonally as a rectangle
+Liquid Retina display
+LED backlit Multi‑Touch display with IPS technology
+2732-by-2048-pixel resolution at 264 ppi
+Wide color (P3)
+True Tone
+Fingerprint-resistant oleophobic coating
+Fully laminated
+Antireflective coating
+600 nits brightness
+Supports Apple Pencil Pro
+Supports Apple Pencil (USB‑C)
+Apple Pencil hover
+The display has rounded corners. When measured diagonally as a rectangle, the 13‑inch iPad Air is 12.9 inches. Actual viewable area is less.
+Chip
+Apple M4 chip
+
+
+---
+
+(P3)
+True Tone
+Fingerprint-resistant oleophobic coating
+Fully laminated
+Antireflective coating
+600 nits brightness
+Supports Apple Pencil Pro
+Supports Apple Pencil (USB‑C)
+Apple Pencil hover
+The display has rounded corners. When measured diagonally as a rectangle, the 13‑inch iPad Air is 12.9 inches. Actual viewable area is less.
+Chip
+Apple M4 chip
+
+8-core CPU with 3 performance cores and 5 efficiency cores
+9-core GPU
+Hardware-accelerated ray tracing
+16-core Neural Engine
+120GB/s memory bandwidth
+12GB unified memory
+Media Engine
+Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW
+Video decode engine
+Video encode engine
+ProRes encode and decode engine
+AV1 decode
+Apple Intelligence3
+Built into your iPad, Apple Intelligence is the personal intelligence system that helps you write, express yourself, and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.
+Learn more about Apple Intelligence
+Camera
+12MP Wide camera, ƒ/1.8 aperture
+Digital zoom up to 5x
+Five-element lens
+Panorama (up to 63MP)
+Sapphire crystal lens cover
+Autofocus with Focus Pixels
+Smart HDR 4
+Wide color capture for photos and Live Photos
+Photo geotagging
+Auto image stabilization
+Burst mode
+Image formats captured: HEIF and JPEG
+Video Recording
+4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps
+1080p HD video recording at 25 fps, 30 fps, or 60 fps
+720p HD video recording at 30 fps
+Slo‑mo video support for 1080p at 120 fps or 240 fps
+Time‑lapse video with stabilization
+Extended dynamic range for video up to 30 fps
+Cinematic video stabilization (4K, 1080p, and 720p)
+Continuous autofocus video
+Playback zoom
+Video formats captured: HEVC and H.264
+Front Camera
+Landscape 12MP Center Stage camera
+ƒ/2.0 aperture
+Smart HDR 4
+1080p HD video recording at 25 fps, 30 fps, or 60 fps
+Time‑lapse video with stabilization
+Extended dynamic range for video up to 30 fps
+Cinematic video stabilization (1080p and 720p)
+Wide color capture for photos and Live Photos
+Lens correction
+Retina Flash with True Tone
+Auto image stabilization
+Burst mode
+Video Calling4
+FaceTime video
+Center Stage
+
+
+---
+
+80p HD video recording at 25 fps, 30 fps, or 60 fps
+Time‑lapse video with stabilization
+Extended dynamic range for video up to 30 fps
+Cinematic video stabilization (1080p and 720p)
+Wide color capture for photos and Live Photos
+Lens correction
+Retina Flash with True Tone
+Auto image stabilization
+Burst mode
+Video Calling4
+FaceTime video
+Center Stage
+
+iPad to any FaceTime‑enabled device over Wi-Fi or cellular
+Share experiences like movies, TV, music, and other apps in a FaceTime call with SharePlay
+Screen sharing
+Portrait mode in FaceTime video
+Spatial Audio
+Voice Isolation and Wide Spectrum microphone modes
+Audio Calling4
+FaceTime audio
+Relay cellular calls from your nearby iPhone with the Phone app
+Speakers
+Landscape stereo speakers
+Micro­phones
+Dual microphones for calls, video recording, and audio recording
+Cellular and Wireless
+All models
+Apple N1 wireless networking chip
+Wi-Fi 7 (802.11be) with 2x2 MIMO5
+Simultaneous dual band
+Bluetooth 6
+Thread networking technology
+Wi-Fi + Cellular models
+Apple C1X cellular modem
+5G (sub‑6 GHz) with 4x4 MIMO
+Gigabit LTE with 4x4 MIMO
+Models A3460 and A3462:
+5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n66, n70, n71, n75, n77, n78, n79)5
+FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 66, 71)
+TD-LTE (Bands 34, 38, 39, 40, 41, 42, 48)
+UMTS/HSPA/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)
+Data only6
+Wi-Fi calling5
+eSIM7
+Learn more about cellular
+SIM Card
+eSIM7
+iPad Air uses advanced eSIM technology for more convenience and security (not compatible with physical SIM cards)
+Learn more about eSIM
+Learn more about traveling with eSIM
+Location
+All models
+Digital compass
+Wi‑Fi
+iBeacon microlocation
+Wi-Fi + Cellular models
+GPS/GNSS
+Cellular
+Sensors
+Touch ID
+Three‐axis gyro
+Accelerometer
+Barometer
+Ambient light sensor
+Touch ID
+Unlock iPad
+Secure personal data within apps
+Make purchases from the iTunes Store, App Store, and Apple Books
+Apple Pay
+Pay with your iPad using Touch ID within apps and on the web
+Send and receive money in Messages
+Learn more about Apple Pay
+Siri8
+
+
+---
+
+GNSS
+Cellular
+Sensors
+Touch ID
+Three‐axis gyro
+Accelerometer
+Barometer
+Ambient light sensor
+Touch ID
+Unlock iPad
+Secure personal data within apps
+Make purchases from the iTunes Store, App Store, and Apple Books
+Apple Pay
+Pay with your iPad using Touch ID within apps and on the web
+Send and receive money in Messages
+Learn more about Apple Pay
+Siri8
+
+Get help with everyday tasks like sending messages, setting reminders, and more
+Activate hands-free with only your voice using “Siri” or “Hey Siri,” or use Type to Siri
+Protected by the strongest privacy of any intelligent assistant
+Powered by Apple Intelligence, Siri is more natural and helpful
+Learn more about Siri
+Charging and Expansion
+USB-C port with support for:
+Charging
+DisplayPort
+USB 3 (up to 10Gb/s)
+Display Support
+Supports full native resolution on the built-in display at millions of colors
+Supports one external display with up to 6K resolution at 60Hz
+Digital video output
+Native DisplayPort output over USB‑C
+VGA, HDMI, and DVI output supported using adapters (sold separately)
+Video mirroring
+Up to 4K AirPlay for mirroring, photos, and video out to Apple TV (2nd generation or later) or AirPlay‑enabled smart TV
+Video mirroring and video out support through USB-C Digital AV Multiport Adapter and USB-C VGA Multiport Adapter (adapters sold separately)
+Power and Battery9
+iPad Air 11‑inch
+Built‐in 28.93‐watt‐hour rechargeable lithium‑polymer battery
+iPad Air 13‑inch
+Built‐in 36.59‐watt‐hour rechargeable lithium‑polymer battery
+All models
+Up to 10 hours of surfing the web on Wi‐Fi or watching video
+Charging via power adapter or USB‑C to computer system
+Wi-Fi + Cellular models
+Up to 9 hours of surfing the web using cellular data network
+Operating System
+iPadOS
+iPadOS comes with powerful features and built-in apps designed to take advantage of the unique capabilities of iPad.
+Accessi­bility
+Built-in accessibility features supporting vision, mobility, hearing, and cognitive disabilities help you get the most out of your iPad. Learn more
+Features Include:
+VoiceOver
+Zoom
+Magnifier
+Spoken Content
+Voice Control
+Switch Control
+AssistiveTouch
+Siri and Dictation
+Type to Siri
+Real-Time Text
+Audio Descriptions
+
+
+---
+
+abilities of iPad.
+Accessi­bility
+Built-in accessibility features supporting vision, mobility, hearing, and cognitive disabilities help you get the most out of your iPad. Learn more
+Features Include:
+VoiceOver
+Zoom
+Magnifier
+Spoken Content
+Voice Control
+Switch Control
+AssistiveTouch
+Siri and Dictation
+Type to Siri
+Real-Time Text
+Audio Descriptions
+
+Subtitles and Closed Captioning
+Live Captions
+Built-in Apps10
+Apple Store
+App Store
+Books
+Calculator
+Calendar
+Camera
+Clock
+Contacts
+FaceTime
+Files
+Find My
+Freeform
+Games
+GarageBand
+Health
+Home
+iMovie
+Invites
+iTunes Store
+Journal
+Keynote
+Magnifier
+Mail
+Maps
+Measure
+Messages
+Music
+News
+Notes
+Numbers
+Pages
+Passwords
+Phone
+Photo Booth
+Photos
+Podcasts
+Preview
+Reminders
+Safari
+Settings
+Shortcuts
+Stocks
+Support
+Swift Playgrounds
+Tips
+Translate
+TV
+Voice Memos
+Weather
+For a complete list of Apple apps available on iPad, see apple.com/apps.
+System Require­ments
+Apple Account (required for some features)
+Internet access11
+Syncing to a Mac or PC requires:
+macOS Catalina 10.15 or later using the Finder
+macOS High Sierra 10.13 through macOS Mojave 10.14.6 using iTunes 12.9 or later
+Windows 10 or later using iTunes 12.12.10 or later (free download from apple.com/itunes/download)
+Languages
+Language support
+Arabic, Bangla, Bulgarian, Catalan, Chinese (Simplified), Chinese (Traditional – Hong Kong), Chinese (Traditional – Taiwan), Croatian, Czech, Danish, Dutch, English (Australia), English (India), English (UK), English (U.S.), Finnish, French (Canada), French (France), German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Lithuanian, Malayalam, Malay, Marathi, Norwegian, Odia, Polish, Portuguese (Brazil), Portuguese (Portugal), Punjabi, Romanian, Russian, Slovak, Slovenian, Spanish (Latin America), Spanish (Spain), Spanish (U.S.), Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese
+Learn more about feature availability
+Video Playback
+Supported formats include HEVC, H.264, AV1, and ProRes
+HDR with Dolby Vision, HDR10+/HDR10, and HLG
+Audio Playback
+Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus, and Dolby Atmos
+
+
+---
+
+.S.), Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese
+Learn more about feature availability
+Video Playback
+Supported formats include HEVC, H.264, AV1, and ProRes
+HDR with Dolby Vision, HDR10+/HDR10, and HLG
+Audio Playback
+Supported formats include AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus, and Dolby Atmos
+
+Spatial Audio playback
+User-conﬁgurable maximum volume limit
+Environ­mental Require­ments
+Operating ambient temperature: 32° to 95° F (0° to 35° C)
+Nonoperating temperature: −4° to 113° F (−20° to 45° C)
+Relative humidity: 5% to 95% noncondensing
+Operating altitude: tested up to 10,000 feet (3000 m)
+iPad Air and the Environment
+iPad Air is designed to reduce environmental impact:12
+See the iPad Air Product Environmental Report (PDF) - opens in new window
+Progress toward Apple 2030
+Apple 2030 is our commitment to be carbon neutral for our entire carbon footprint. Our plan to decarbonize products is rigorous and focuses on transitioning to low-carbon electricity, designing with recycled and low-carbon materials, and prioritizing lower-carbon ways of shipping products, like ocean freight.
+See Apple’s commitment
+Materials
+iPad Air is made with 30% recycled content,13 including:
+100% recycled aluminum in the enclosure
+100% recycled cobalt and 95% recycled lithium in the battery
+100% recycled gold plating and tin solder in all Apple-designed printed circuit boards
+100% recycled gold wire in all cameras and gold plating in all connectors
+100% recycled rare earth elements in all magnets
+80% recycled steel in the Apple logo
+Energy
+40% of manufacturing electricity for iPad Air is sourced from renewable electricity14
+ENERGY STAR® certified15
+Packaging
+100% fiber-based packaging16
+Waste
+No established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Program17
+Smarter chemistry18
+
+
+---
+
+ements in all magnets
+80% recycled steel in the Apple logo
+Energy
+40% of manufacturing electricity for iPad Air is sourced from renewable electricity14
+ENERGY STAR® certified15
+Packaging
+100% fiber-based packaging16
+Waste
+No established final assembly sites generate waste sent to landfill as part of Apple’s Zero Waste Program17
+Smarter chemistry18
+
+All of the materials used in Apple products, accessories, and packaging are covered by the requirements of our Regulated Substances Specification(PDF) opens in new window, which was one of the first in industry to restrict the use of key substances of concern. See the latest Environmental Progress Report(PDF) opens in new window to understand Apple’s recent efforts in phasing out these chemistries.
+Source footnote footnote-1: Actual formatted capacity is less and varies due to many factors. Storage capacity subject to change based on software version, settings, and iPad model. 1GB = 1 billion bytes; 1TB = 1 trillion bytes.
+Source footnote footnote-2: Size and weight vary by conﬁguration and manufacturing process.
+Source footnote footnote-3:
+
+
+---
+
+
+Source footnote footnote-1: Actual formatted capacity is less and varies due to many factors. Storage capacity subject to change based on software version, settings, and iPad model. 1GB = 1 billion bytes; 1TB = 1 trillion bytes.
+Source footnote footnote-2: Size and weight vary by conﬁguration and manufacturing process.
+Source footnote footnote-3:
+
+Apple Intelligence is available with Siri and device language set to Chinese (Simplified), Chinese (Traditional), Danish, Dutch, English, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Spanish, Swedish, Turkish, or Vietnamese. Some features may not be available in all regions or languages. Some devices may not be available in all regions. Siri AI is available in beta in iPadOS 27 and requires an Apple Intelligence–enabled device set to a supported language. Available in English to start. Siri AI will not be initially available in the EU on iPadOS. Certain Apple Intelligence features that rely on server-side models are subject to daily usage limits, including but not limited to Siri AI, Intelligent Photo Editing Tools, Image Playground, and AFM 3 Cloud models in Shortcuts. Daily limits may vary by feature, request complexity, system demand, system policies, and other factors. Expanded access to such features will be available for a fee in the future. Use of these features is subject to the Apple Intelligence Terms and Conditions. Learn more at apple.com/apple-intelligence.
+Source footnote footnote-4: FaceTime calling requires a FaceTime‑enabled device for the caller and recipient and a Wi‑Fi connection. Availability over a cellular network depends on carrier policies; data charges may apply.
+Source footnote footnote-5: Wi‑Fi 7 available in countries and regions where supported. Data plan required for cellular connections. 5G, Gigabit LTE, and Wi‑Fi calling are available in select markets and through select carriers. Speeds are based on theoretical throughput and vary based on site conditions and carrier. For details on 5G and LTE support, contact your carrier and see apple.com/ipad/cellular.
+
+
+---
+
+ and regions where supported. Data plan required for cellular connections. 5G, Gigabit LTE, and Wi‑Fi calling are available in select markets and through select carriers. Speeds are based on theoretical throughput and vary based on site conditions and carrier. For details on 5G and LTE support, contact your carrier and see apple.com/ipad/cellular.
+
+Source footnote footnote-6: Cellular data plan is sold separately. The model you purchase is conﬁgured to work with a particular cellular network technology. Check with your carrier for compatibility and cellular data plan availability.
+Source footnote footnote-7: Not all carriers support eSIM. See your carrier for more details. For Models A3463 and A3464, contact China Unicom for more details.
+Source footnote footnote-8: Siri may not be available in all languages or in all areas, and features may vary by area. Internet access required. Cellular data charges may apply.
+Source footnote footnote-9: Testing conducted by Apple in January and February 2026 using preproduction iPad Air 11‑inch (M4) and iPad Air 13‑inch (M4) units. Testing consisted of full battery discharge while performing each of the following tasks: video playback and internet browsing using Wi‑Fi or cellular data network (cellular models subscribed to LTE and 5G carrier networks). Video content was a repeated 2-hour 23-minute movie purchased from the iTunes Store. Internet over Wi‑Fi and cellular data network tested by browsing 20 popular web pages. All settings were default except: Wi‑Fi was associated with a network (except for internet browsing over cellular data network); the Wi‑Fi feature Ask to Join Networks and Auto-Brightness were turned off; Brightness was set to 50%; and WPA2 encryption was enabled. Battery life depends on device settings, usage, network, and many other factors. Battery tests are conducted using specific iPad units; actual results may vary.
+Source footnote footnote-10: Apple Invites, Apple Support, and Swift Playgrounds are available on the App Store for iPad. Downloading apps requires an Apple Account and a device that is compatible with the OS version required for each app.
+
+
+---
+
+work, and many other factors. Battery tests are conducted using specific iPad units; actual results may vary.
+Source footnote footnote-10: Apple Invites, Apple Support, and Swift Playgrounds are available on the App Store for iPad. Downloading apps requires an Apple Account and a device that is compatible with the OS version required for each app.
+
+Source footnote footnote-11: Wireless broadband recommended; fees may apply.
+Source footnote footnote-12: Data accurate as of product launch.
+Source footnote footnote-13: Product recycled or renewable content is the mass of certified recycled material relative to the overall mass of the device, not including packaging or in‑box accessories.
+Source footnote footnote-14: We estimate the percentage of electricity-related emissions in our manufacturing that is sourced from low-carbon electricity by attributing to our carbon model low-carbon energy procured by our suppliers in the prior fiscal year, based on the supplier manufacturing allocations at time of product launch. This calculation assesses the suppliers for iPad Air. Included in this number is only low-carbon electricity that Apple or its suppliers have procured as part of Apple’s Supplier Clean Energy Program.
+Source footnote footnote-15: ENERGY STAR and the ENERGY STAR mark are registered trademarks owned by the U.S. Environmental Protection Agency.
+Source footnote footnote-16: Breakdown of U.S. retail packaging by weight. Adhesives, inks, and coatings are excluded from our calculations.
+Source footnote footnote-17: All established final assembly supplier sites — those that have been Apple suppliers for more than one year — for iPad Air are third-party verified as Zero Waste by UL LLC (UL 2799 Standard). UL requires at least 90% diversion through methods other than waste to energy to achieve Zero Waste to Landfill (Silver 90–94%, Gold 95–99%, and Platinum 100%) designations.
+
+
+---
+
+final assembly supplier sites — those that have been Apple suppliers for more than one year — for iPad Air are third-party verified as Zero Waste by UL LLC (UL 2799 Standard). UL requires at least 90% diversion through methods other than waste to energy to achieve Zero Waste to Landfill (Silver 90–94%, Gold 95–99%, and Platinum 100%) designations.
+
+Source footnote footnote-18: Apple’s Regulated Substances Specification describes Apple’s restrictions on the use of certain chemical substances in materials in Apple products, accessories, manufacturing processes, and packaging used for shipping products to Apple’s end‑customers. Restrictions are derived from international laws or directives, regulatory agencies, eco‑label requirements, environmental standards, and Apple policies. Every Apple product is free of PVC and phthalates except for AC power cords in India, Thailand (for two‑prong AC power cords), and South Korea, where we continue to seek government approval for our PVC and phthalates replacement. Apple products comply with the European Union Directive 2011/65/EU and its amendments, including exemptions for the use of lead such as high‑temperature solder. Apple is working to phase out the use of these exempted substances for new products where technically possible.
