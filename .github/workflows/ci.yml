@@ -1,0 +1,102 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Typecheck, lint, tests, build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: npm ci
+      - run: npm run format:check
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: PYTHONPATH=evals python3 -m unittest discover -s evals/tests -v
+      - run: npm run build
+
+  evaluation:
+    name: End-to-end evaluation
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg17
+        env:
+          POSTGRES_USER: support
+          POSTGRES_PASSWORD: support
+          POSTGRES_DB: support
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U support -d support"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 20
+    env:
+      NODE_ENV: development
+      DATABASE_URL: postgres://support:support@127.0.0.1:5432/support
+      AGENT_MODE: demo
+      EMBEDDINGS_MODE: 'off'
+      AUTO_BOOTSTRAP: 'true'
+      SEED_DEMO: 'true'
+      OTEL_ENABLED: 'true'
+      OTEL_METRICS_HOST: 127.0.0.1
+      OTEL_METRICS_PORT: '9464'
+      EVAL_API_TOKEN: local-eval-token-change-me
+      RATE_LIMIT_PER_MINUTE: '240'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: npm ci
+      - run: npm run bootstrap
+
+      - name: Start the app and run release gates
+        run: |
+          npm run start:dev > /tmp/maxify-app.log 2>&1 &
+          APP_PID=$!
+          trap 'kill $APP_PID 2>/dev/null || true' EXIT
+          for attempt in {1..60}; do
+            if curl --fail --silent http://127.0.0.1:3000/api/health > /dev/null; then
+              break
+            fi
+            sleep 1
+          done
+          curl --fail --silent http://127.0.0.1:3000/api/health
+          npm run smoke
+          npm run test:integration
+          npm run reliability
+          make eval
+
+      - name: Upload failure logs
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-log
+          path: /tmp/maxify-app.log
