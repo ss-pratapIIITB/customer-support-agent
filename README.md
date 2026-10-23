@@ -1,163 +1,226 @@
 # Maxify Support
 
-Local customer support portal with persistent chats, cited answers from preserved official product pages, a reviewer console, Codex SDK customer agents, and LiteLLM usage and cost records. Live model calls require a configured OpenAI API key and network access.
+A production-shaped AI customer-support demo: grounded product answers, real commerce tools, human-review guardrails, OpenTelemetry traces and metrics, and a Python evaluation gate that runs against the actual HTTP API.
 
-## Start here
+The demo is fully functional **without an API key**. It defaults to a deterministic support engine, a local pgvector/Postgres corpus, and lexical retrieval. A live OpenAI-compatible model can be enabled explicitly.
 
-- [Product requirements document (PRD)](docs/superpowers/specs/2026-10-08-customer-support-agent-design.md): goals, scope, success metrics, failure scenarios, risks, and the Vercel extension plan. [PRD.md](PRD.md) provides a root-level entry point.
-- [Demo walkthrough](docs/DEMO_RUNBOOK.md): customer questions and reviewer screens to show.
-- [Demo verification report](docs/DEMO_STATUS.md): recorded results and unmet targets from the original local demo. These results describe that environment; a fresh checkout must run its own checks.
-- [Implementation plan](docs/superpowers/plans/2026-10-08-support-demo.md): the original delivery sequence.
+[![CI](https://github.com/ss-pratapIIITB/customer-support-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/ss-pratapIIITB/customer-support-agent/actions/workflows/ci.yml)
 
-## Fresh checkout: Compose with Docker or Colima
+![Customer chat with citations](docs/screenshots/chat-grounding.jpg)
 
-Prerequisites: Git, a running Docker-compatible engine with Docker Compose v2, and an OpenAI API key with access to the configured models. On macOS, Colima can provide the engine. Native development also requires Node.js; the application container uses Node.js 24.
+![Reviewer console with evaluation and trace summary](docs/screenshots/reviewer-console.jpg)
 
-```sh
+## What is included
+
+- **Grounded answers** over 8 official Apple product specification snapshots and 3 explicitly fictional Demo store policies: 11 sources, 297 indexed chunks. Every factual answer carries citation IDs that are validated against retrieved evidence.
+- **Real tools**, not prompt-only theatre: order lookup, order history, return evaluation, return confirmation, warranty ticket creation, and human handoff. Tool calls are persisted and shown in the UI.
+- **Human-in-the-loop returns**: opened headphones/earbuds and change-of-mind requests outside 14 days are refused; returns above `RETURN_AUTO_APPROVE_LIMIT_CENTS` (default S$500) require reviewer approval.
+- **Safety paths** for prompt injection, medical advice, live pricing, secrets, out-of-domain questions, and ambiguous product questions.
+- **A reviewer console** with chats, traces, sources, evaluation runs, reliability checks, and tool/audit detail.
+- **Observability** through OpenTelemetry traces (OTLP → Jaeger), Prometheus metrics, structured logs, trace IDs on messages, and per-request latency.
+- **A real eval harness** in Python (standard library only): 30 labelled cases, deterministic graders, citation and tool assertions, baseline comparison, optional server-side LLM judge, and CI integration. Latest demo run: **30/30 passed, 100% answer accuracy, 100% citation validity, 0% unsafe**.
+- **Operational checks**: 7 TypeScript and 11 Python unit tests, 4 HTTP integration tests, 7 smoke checks, 8 reliability checks, lint, typecheck, production build, Docker/Compose, and GitHub Actions.
+
+## Quick start
+
+### Docker Compose (recommended)
+
+Prerequisites: Docker or Colima with Compose v2.
+
+```bash
 git clone https://github.com/ss-pratapIIITB/customer-support-agent.git
 cd customer-support-agent
-cp .env.example .env
-```
-
-Edit `.env` locally. Set `OPENAI_API_KEY` to your provider key and `LITELLM_API_KEY` to a gateway key of your choice. Use the same gateway key for the app and proxy. The repository includes placeholders only. `.env`, runtime state, database files, and cost logs are excluded from Git.
-
-If you use Colima, start it before Compose:
-
-```sh
-colima start
-```
-
-Then start the services and ingest the included snapshots:
-
-```sh
-mkdir -p .runtime
 docker compose up --build -d
-docker compose exec app npm run ingest
 curl --fail http://127.0.0.1:3000/api/health
 ```
 
-The health response must report `status: "ready"` and `ingestion.ready: true` before the corpus is ready for questions. Inspect startup problems with `docker compose logs --tail=100 app litellm postgres`. The health endpoint checks the database and corpus; a cited answer is the separate model/gateway smoke check.
+The app bootstraps its schema, ingests the included snapshots, and seeds the demo workspace on startup. Open [http://127.0.0.1:3000](http://127.0.0.1:3000).
 
-Compose exposes the portal on **3000**, LiteLLM on **4000**, and PostgreSQL on **5434**. Containers use PostgreSQL's internal port **5432**. Stop any existing native app and gateway before reusing ports 3000 and 4000. The native PostgreSQL service on 5433 can remain running.
+| Service        | URL                                    |
+| -------------- | -------------------------------------- |
+| Support portal | http://127.0.0.1:3000                  |
+| Jaeger UI      | http://127.0.0.1:16686                 |
+| Prometheus     | http://127.0.0.1:9090                  |
+| App metrics    | http://127.0.0.1:9464/metrics          |
+| PostgreSQL     | `127.0.0.1:5435` (container port 5432) |
 
-Stop the stack with `docker compose down`. Keep its PostgreSQL volume and `.runtime/` directory to retain conversations and agent state. `docker compose down -v` deletes the stack's database volume.
+Demo accounts:
 
-Full Compose startup remains unverified in the original demo report. The native setup below was the verified runtime; this distinction also applies to the Compose test commands.
+| Role     | Email                  | Password   |
+| -------- | ---------------------- | ---------- |
+| Customer | `customer@maxify.demo` | `Demo123!` |
+| Reviewer | `reviewer@maxify.demo` | `Demo123!` |
 
-## Portal and demo accounts
+These are local seeded accounts, not production credentials.
 
-Open [the local portal](http://127.0.0.1:3000). Seeded demo accounts:
+### Native development
 
-| Role | Email | Password |
-| --- | --- | --- |
-| Customer | customer@maxify.demo | Demo123! |
-| Reviewer | reviewer@maxify.demo | Demo123! |
+Prerequisites: Node.js 22+, Python 3.10+, PostgreSQL 17 with pgvector.
 
-The verified native setup uses PostgreSQL with pgvector on **5433**, LiteLLM on **4000**, and the portal on **3000**. These demo credentials are seeded local accounts, not production authentication.
+```bash
+cp .env.example .env
+npm ci
+# Point DATABASE_URL at your Postgres instance, then:
+npm run bootstrap
+npm run start:dev
+```
 
-## Corpus
+`npm run bootstrap` is idempotent: it migrates, ingests preserved snapshots when no active corpus exists, and seeds the demo. For a fresh database:
 
-The active corpus contains **8 real products, 3 explicitly fictional Demo store policies, 11 sources, and 102 chunks**. Product sources are official Apple specifications: AirPods 5, AirPods Pro 3, AirPods Max 2, iPhone 17, iPad Air, iPad Pro, MacBook Air, and MacBook Pro. Raw snapshots, hashes, capture timestamps, final URLs, and versions are preserved in `data/manifest.json` and `data/raw/`; extracted text is in `data/processed/`. Manufacturer specifications and fictional retailer shipping, returns, and warranty procedures are separate source scopes.
+```bash
+createdb support
+psql support -c 'CREATE EXTENSION IF NOT EXISTS vector;'
+```
 
-Customer answers use `gpt-6-luna` through the Codex SDK and LiteLLM Responses API. Labels and quality judgments use `gpt-6-sol`; embeddings use `text-embedding-3-small`. Costs come from gateway usage and price estimates; missing or unfinished costs remain unknown. Existing evaluation records retain their original corpus and dataset hashes. The current 24-case quality dataset covers the original headphone/policy scope; adding five products did not silently rewrite that dataset.
+The default `DATABASE_URL` expects `postgres://support:support@127.0.0.1:5435/support`.
 
-## Native startup and restart
+## Agent modes
 
-Run from this project directory. The existing native database and LiteLLM environment are under `.runtime/`.
+| Mode             | Behaviour                                                              | Key required |
+| ---------------- | ---------------------------------------------------------------------- | ------------ |
+| `demo` (default) | Deterministic engine, lexical retrieval, no external calls             | No           |
+| `auto`           | Uses the live model when `OPENAI_API_KEY` is non-empty, otherwise demo | Optional     |
+| `live`           | Always calls the configured OpenAI-compatible model                    | Yes          |
 
-1. Install application dependencies with `npm ci`. If configuring a new checkout, copy `.env.example` to `.env` and set the provider and local gateway keys. Preserve an existing working `.env`.
-2. Start the existing native database if it is stopped:
+```bash
+# Native live model
+AGENT_MODE=live OPENAI_API_KEY=... npm run start:dev
 
-   ```sh
-   /opt/homebrew/opt/postgresql@15/bin/pg_ctl -D .runtime/pgdata -l .runtime/postgres.log -o '-p 5433 -h 127.0.0.1' start
-   ```
+# Compose live model
+MAXIFY_AGENT_MODE=live MAXIFY_OPENAI_API_KEY=... docker compose up --build -d
+```
 
-   The database cluster must already contain the `support` role/database and pgvector extension. This command reuses the demo cluster; it does not initialize an empty cluster.
-3. Start the gateway in a separate terminal, loading `.env` without printing credentials:
+Relevant settings are documented in [`.env.example`](.env.example). `OPENAI_BASE_URL` works with OpenAI, Azure OpenAI, LiteLLM, vLLM, Ollama, OpenRouter, and other compatible endpoints. In demo mode, embeddings default to off even if a stale key is present, so the demo never makes accidental paid calls.
 
-   ```sh
-   node --input-type=module -e 'import "dotenv/config"; import {spawn} from "node:child_process"; const env={...process.env,PYTHONPATH:process.cwd()+"/litellm",COST_LOG_PATH:process.cwd()+"/.runtime/gateway-costs.jsonl"}; delete env.DATABASE_URL; const p=spawn(".runtime/litellm-venv/bin/litellm",["--config","litellm/config.yaml","--port","4000","--host","127.0.0.1"],{stdio:"inherit",env}); p.on("exit",c=>process.exit(c??1));'
-   ```
+## Evaluation
 
-   For a new environment, create that virtual environment and install `litellm[proxy]` first. Native paths shown here match this macOS demo machine.
-4. Run `npm run build`, then `npm start` in another terminal. `npm run dev` is available for source changes.
-5. Run `npm run ingest`. Unchanged snapshots reuse cached embeddings and return `unchanged: true`. A new corpus activates only after complete ingestion; interrupted staging preserves the prior active version.
-6. Check `http://127.0.0.1:3000/api/health` and open the portal.
+The release gate runs the same internal answer path used by the product:
 
-To restart the application, stop its terminal process and run `npm start` again. Keep PostgreSQL and LiteLLM running. Committed chats and login sessions persist; interrupted requests offer explicit retry using the same request identity. An interrupted provider call can have an unknown billing outcome.
+```bash
+make eval
+# or
+PYTHONPATH=evals python3 -m maxify_evals --fail-under 0.9
+```
 
-## Verification and saved evaluations
+It writes a report to `evals/reports/` and imports it into the reviewer console. The checked-in baseline is `evals/baselines/demo-engine.json`.
 
-Run the following commands from the project root after `npm ci`. Basic checks need no provider key or running services:
+```bash
+make eval-baseline   # regenerate after intentional dataset changes
+make test-python     # grader/dataset unit tests
+```
 
-```sh
+The 30 cases cover product specifications, policies, orders, returns, safety, ambiguity, comparisons, and human handoff. The optional judge is additive and disabled in demo mode; in live mode the server calls `JUDGE_MODEL`, keeping the provider key server-side. See [docs/EVALS.md](docs/EVALS.md).
+
+## Verification
+
+With the app running:
+
+```bash
 npm run typecheck
-npm run build
+npm run lint
 npm test
+PYTHONPATH=evals python3 -m unittest discover -s evals/tests -v
+npm run test:integration
+npm run smoke
+npm run reliability
+make eval
 ```
 
-`npm test` runs the basic checks and skips the two opt-in HTTP and RAG integration tests. A passing default run does not certify the live model, database, or gateway.
+`test:integration` and the smoke/reliability scripts expect a running app at `MAXIFY_BASE_URL` (default `http://127.0.0.1:3000`). Reliability requires the metrics endpoint. Unit tests and the Python grader tests need neither a database nor a model key.
 
-With the application, PostgreSQL, and LiteLLM running and the corpus ingested, run both opt-in checks:
+The CI workflow runs lint, typecheck, unit tests, Python tests, build, then a full Postgres-backed smoke/integration/reliability/evaluation job.
 
-```sh
-HTTP_INTEGRATION=1 RAG_INTEGRATION=1 npm test
+## Architecture at a glance
+
+```text
+Browser (React 19)
+   │  session cookie, JSON
+Express 5 API  ── auth / rate limits / request IDs / audit
+   │
+   ├── intent + scope resolution
+   ├── hybrid retrieval (pgvector when configured, lexical fallback)
+   ├── demo engine  ──or──  live model (tool calling)
+   ├── commerce tools ── orders / returns / tickets / human review
+   └── evidence validation + citations
+   │
+PostgreSQL 17 + pgvector      OpenTelemetry → Jaeger
+                               Prometheus /metrics
 ```
 
-To run either integration check separately:
+Key properties:
 
-```sh
-HTTP_INTEGRATION=1 npx tsx --test tests/http.test.ts
-RAG_INTEGRATION=1 npx tsx --test tests/rag.test.ts
+- **Tenant scoping** is enforced in SQL: chats, orders, returns, and tickets are always filtered by the authenticated user.
+- **Evidence before prose**: unsupported questions abstain; answers are rejected if cited IDs are not in the retrieved set.
+- **Idempotent requests**: each chat turn uses a client request ID, so retries cannot duplicate messages or side effects.
+- **Atomic ingestion**: a new corpus version becomes active only after all chunks are written; an interrupted run leaves the previous active version intact.
+- **Migrations on boot** use advisory locking and are safe to rerun.
+
+More detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+
+## API surface
+
+| Method     | Path                               | Purpose                                          |
+| ---------- | ---------------------------------- | ------------------------------------------------ |
+| `GET`      | `/api/health`                      | Readiness, corpus status, mode, model, telemetry |
+| `POST`     | `/api/login` / `/api/logout`       | Session authentication                           |
+| `GET`      | `/api/me`                          | Current user and workspace defaults              |
+| `GET/POST` | `/api/chats`                       | List and create conversations                    |
+| `GET`      | `/api/chats/:id/messages`          | Messages, traces, tool calls                     |
+| `POST`     | `/api/chats/:id/messages`          | Send a message (`requestId` required)            |
+| `GET`      | `/api/admin/evals`                 | Reviewer-only evaluation runs                    |
+| `GET`      | `/api/admin/reliability`           | Reviewer-only reliability runs                   |
+| `GET`      | `/api/internal/eval/meta`          | Corpus/model metadata for the harness            |
+| `POST`     | `/api/internal/eval/answer`        | Isolated answer execution for evaluation         |
+| `POST`     | `/api/internal/eval/import`        | Import an eval report                            |
+| `POST`     | `/api/internal/reliability/import` | Import reliability checks                        |
+
+Internal routes require `x-eval-token: $EVAL_API_TOKEN`.
+
+## Repository layout
+
+```text
+src/
+  agent.ts, demoAgent.ts, llmAgent.ts   answer orchestration and engines
+  intent.ts, context.ts, catalog.ts     intent, scope, product aliases
+  retrieval.ts                          hybrid search, citations, excerpts
+  commerce.ts, tools.ts                 orders, returns, tickets, tools
+  routes/                               auth, chat, admin, internal eval
+  ingest.ts, bootstrap.ts, seed.ts      corpus, schema, demo data
+  telemetry.ts, logger.ts               OpenTelemetry and structured logs
+  web/                                  React reviewer/customer UI
+db/migrations/                          SQL schema
+data/                                   preserved snapshots and manifest
+evals/                                  Python harness, dataset, baseline
+scripts/                                bootstrap, ingest, seed, smoke, reliability
+tests/                                  unit and integration tests
+docs/                                   architecture, evals, security, demo script
 ```
 
-Then run resilience checks and model-graded quality evaluation:
+## Operational notes
 
-```sh
-npx tsx scripts/failure-checks.ts
-npm run eval
-```
+- Demo data is seeded idempotently. `SEED_DEMO=false` disables it.
+- `AUTO_BOOTSTRAP=false` is recommended for controlled production deployments; run `npm run bootstrap` as a migration job instead.
+- Use a strong `EVAL_API_TOKEN`, HTTPS, and `COOKIE_SECURE=true` outside local development.
+- The internal eval endpoints are token-protected and should not be exposed to the public internet.
+- Model and judge calls are never made by the Python harness directly; the server owns provider credentials.
 
-| Check | What it verifies | Dependencies and effects |
-| --- | --- | --- |
-| Typecheck and build | TypeScript contracts and production web compilation | Installed dependencies; build writes `dist/` |
-| Basic tests | Password handling, citation contracts, evidence gaps, context scope, cost tags, extraction, and snapshot hashes | No live provider calls; integration cases are skipped |
-| HTTP integration | Reusing a completed request ID with a different question returns a conflict | Running portal; creates a demo login and saved chat turn |
-| RAG integration | All eight product scopes, numeric battery evidence for the five additions, ingestion interruption safety, and unchanged ingestion without new document embeddings | PostgreSQL and gateway; writes staging state and may make paid embedding calls |
-| Failure checks | Restart, model timeout/rate limit, retrieval outage, absent evidence, ingestion interruption, duplicate requests, and access boundaries | Running database and gateway; creates an isolated app/database and saves outcomes |
-| Quality evals | 24 real answering-pipeline cases with labels, evidence, citations, four rubric grades, and rationale | Active corpus and gateway; paid Luna/Sol/embedding calls; results saved in PostgreSQL |
+## Status and limitations
 
-The failure script starts a separate app on **3001** with a `support_checks` database; it needs a database role that can create databases. Restart, duplicate requests, and access checks use actual HTTP/process behavior. Model timeout/rate-limit and retrieval errors are simulated adapter failures. Ingestion interruption uses an injected failure and checks the main corpus, so avoid concurrent ingestion. Do not run two failure scripts simultaneously.
+This is a production-shaped local reference implementation, not a hosted multi-tenant SaaS. It does not include SSO, billing, email delivery, durable job queues, or real carrier/manufacturer integrations. The corpus is a preserved snapshot; product specifications can change upstream. The deterministic engine is intentionally bounded and should not be presented as a general-purpose LLM.
 
-For a Compose deployment, run checks inside the app container:
+Latest verified run (24 Oct 2026): typecheck, lint, 18 unit tests, 4 integration tests, 7 smoke checks, 8 reliability checks, 30/30 eval cases, and the production build pass. The same smoke, integration, reliability, and evaluation gates also pass against the containerized Compose stack, with traces visible in Jaeger and metrics scraped by Prometheus.
 
-```sh
-docker compose exec app npm run typecheck
-docker compose exec app npm test
-docker compose exec -e HTTP_INTEGRATION=1 -e RAG_INTEGRATION=1 app npm test
-docker compose exec app npx tsx scripts/failure-checks.ts
-docker compose exec app npm run eval
-```
+## Documentation
 
-The image build already runs `npm run build`. The isolated failure app on 3001 runs inside the app container and needs no published host port.
+- [Product overview](docs/PRODUCT.md)
+- [Architecture](docs/ARCHITECTURE.md)
+- [Evaluation guide](docs/EVALS.md)
+- [Observability](docs/OBSERVABILITY.md)
+- [Security](docs/SECURITY.md)
+- [Demo script](docs/DEMO_SCRIPT.md)
+- [Contributing](CONTRIBUTING.md)
+- [License](LICENSE)
 
-Quality evaluation makes paid model calls and can take several minutes. Start it from the reviewer console or `npm run eval`; avoid starting concurrent runs. Saved results expose run status, per-case evidence, labels, scores, corpus/dataset hashes, and audit status. Model-generated labels and judgments remain preliminary until human review; do not present a running or failed run as a completed score.
+## License
 
-### Inspect evaluation and failure results
-
-Log in as the reviewer and open **Reviewer console**:
-
-- **Evaluations**: open a saved run, select a case, and inspect its actual answer, expected behavior, required facts, evidence, citation validity, retrieval hit, and judge rationale. **Run evaluations** starts quality cases only.
-- **Failure checks**: inspect outcomes recorded by `scripts/failure-checks.ts`, including the injection type and observed evidence. The quality-evaluation button does not run these checks.
-- **Traces & costs**: inspect model calls, request identifiers, usage, purpose, and estimated cost. Missing prices or usage remain unknown.
-- **Sources**: inspect the active corpus and preserved raw snapshots.
-
-The 24 cases cover ten product questions, four policy questions, two follow-ups, four ambiguous questions, two unsupported questions, and two prompt-injection questions. Sol generates source-grounded labels on each run and grades correctness, coverage, claim support, and expected behavior. A case passes only when validation succeeds and all four grades pass. Errors and blocked cases remain separate. A completed run can contain failed cases.
-
-Labels are also written to `.runtime/evals/`. Saved evaluation rows and cost records live in the local database; they are not bundled with this repository. Raw source snapshots and the dataset definition are included, so another checkout can generate its own results. The five added products have retrieval checks but still need dedicated quality cases. See the [PRD success metrics](docs/superpowers/specs/2026-10-08-customer-support-agent-design.md#success-metrics) for acceptance targets.
-
-## Deployment status
-
-Hosting is deferred. A Vercel portal would need hosted PostgreSQL/pgvector, durable snapshot storage, and persistent external gateway/Codex services; this local worker and its files cannot be assumed to survive inside serverless functions.
-
-See [the demo walkthrough](docs/DEMO_RUNBOOK.md) and [the product specification](docs/superpowers/specs/2026-10-08-customer-support-agent-design.md).
+MIT. See [LICENSE](LICENSE).
