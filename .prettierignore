@@ -1,0 +1,10 @@
+node_modules
+dist
+.runtime
+package-lock.json
+data
+docs/screenshots
+build
+evals/baselines
+evals/reports
+__pycache__

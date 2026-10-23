@@ -2,4 +2,10 @@ node_modules
 dist
 .runtime
 .env
+.env.*
 .git
+.github
+evals/reports
+__pycache__
+.pytest_cache
+docs/screenshots

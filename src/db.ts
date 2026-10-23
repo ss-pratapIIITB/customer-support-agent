@@ -1,25 +1,93 @@
-import 'dotenv/config';
 import pg from 'pg';
-export const pool = new pg.Pool({connectionString:process.env.DATABASE_URL || process.env.APP_DATABASE_URL || 'postgres://support:support@localhost:5432/support',max:10});
-export function query<T extends pg.QueryResultRow = any>(sql:string,values?:any[]):Promise<pg.QueryResult<T>> {return pool.query<T>(sql,values);}
-export async function initializeDatabase():Promise<void> {
- await query(`CREATE EXTENSION IF NOT EXISTS vector;
- CREATE TABLE IF NOT EXISTS users(id text PRIMARY KEY,email text UNIQUE NOT NULL,password_hash text NOT NULL,role text NOT NULL);
- CREATE TABLE IF NOT EXISTS auth_sessions(id text PRIMARY KEY,user_id text REFERENCES users(id),expires_at timestamptz NOT NULL);
- CREATE TABLE IF NOT EXISTS chats(id text PRIMARY KEY,user_id text REFERENCES users(id),title text NOT NULL,thread_id text,created_at timestamptz DEFAULT now());
- CREATE INDEX IF NOT EXISTS chats_owner ON chats(user_id,created_at);
- CREATE TABLE IF NOT EXISTS messages(id text PRIMARY KEY,chat_id text REFERENCES chats(id),request_id text,role text NOT NULL,content text NOT NULL,status text,citations jsonb DEFAULT '[]',trace_id text,created_at timestamptz DEFAULT now(),UNIQUE(chat_id,request_id,role));
- CREATE TABLE IF NOT EXISTS requests(id text PRIMARY KEY,chat_id text REFERENCES chats(id),user_id text REFERENCES users(id),status text NOT NULL,error text,created_at timestamptz DEFAULT now(),updated_at timestamptz DEFAULT now(),UNIQUE(chat_id,id));
- CREATE TABLE IF NOT EXISTS traces(id text PRIMARY KEY,chat_id text,request_id text,user_id text,data jsonb NOT NULL,created_at timestamptz DEFAULT now());
- CREATE TABLE IF NOT EXISTS eval_runs(id text PRIMARY KEY,created_at timestamptz DEFAULT now(),status text,results jsonb);
- CREATE TABLE IF NOT EXISTS corpus_versions(id text PRIMARY KEY,status text NOT NULL,created_at timestamptz DEFAULT now(),activated_at timestamptz,error text);
- CREATE UNIQUE INDEX IF NOT EXISTS corpus_one_active ON corpus_versions(status) WHERE status='active';
- CREATE TABLE IF NOT EXISTS sources(id text PRIMARY KEY,title text NOT NULL,url text NOT NULL,source_type text NOT NULL,product_id text,version text NOT NULL,manifest jsonb NOT NULL);
- CREATE TABLE IF NOT EXISTS chunks(id text NOT NULL,corpus_version text REFERENCES corpus_versions(id),source_id text REFERENCES sources(id),content text NOT NULL,embedding vector(1536) NOT NULL,search tsvector GENERATED ALWAYS AS (to_tsvector('english',content)) STORED,PRIMARY KEY(corpus_version,id));
- CREATE INDEX IF NOT EXISTS chunks_search ON chunks USING gin(search);
- CREATE INDEX IF NOT EXISTS chunks_source_version ON chunks(corpus_version,source_id);
- CREATE INDEX IF NOT EXISTS sources_product ON sources(product_id,version);
- CREATE INDEX IF NOT EXISTS chunks_embedding ON chunks USING hnsw(embedding vector_cosine_ops);
- CREATE TABLE IF NOT EXISTS embedding_cache(hash text PRIMARY KEY,model text NOT NULL,embedding vector(1536) NOT NULL);
- `);
+import { readdir, readFile } from 'node:fs/promises';
+import path from 'node:path';
+import { config } from './config.js';
+import { logger } from './logger.js';
+
+export const pool = new pg.Pool({
+  connectionString: config.DATABASE_URL,
+  max: config.isTest ? 4 : 12,
+  idleTimeoutMillis: 30_000,
+  connectionTimeoutMillis: 10_000,
+});
+
+pool.on('error', (error) => logger.error({ err: error }, 'Unexpected Postgres pool error'));
+
+export function query<T extends pg.QueryResultRow = pg.QueryResultRow>(
+  sql: string,
+  values?: unknown[],
+): Promise<pg.QueryResult<T>> {
+  return pool.query<T>(sql, values as never[]);
+}
+
+export async function one<T extends pg.QueryResultRow = pg.QueryResultRow>(
+  sql: string,
+  values?: unknown[],
+): Promise<T | undefined> {
+  const result = await pool.query<T>(sql, values as never[]);
+  return result.rows[0];
+}
+
+export async function withTransaction<T>(fn: (client: pg.PoolClient) => Promise<T>): Promise<T> {
+  const client = await pool.connect();
+  try {
+    await client.query('BEGIN');
+    const result = await fn(client);
+    await client.query('COMMIT');
+    return result;
+  } catch (error) {
+    await client.query('ROLLBACK').catch(() => undefined);
+    throw error;
+  } finally {
+    client.release();
+  }
+}
+
+let migrated = false;
+
+export async function migrate(): Promise<void> {
+  if (migrated) return;
+  const dir = path.resolve(process.cwd(), 'db/migrations');
+  const files = (await readdir(dir)).filter((file) => file.endsWith('.sql')).sort();
+  const client = await pool.connect();
+  try {
+    await client.query('SELECT pg_advisory_lock(738291045)');
+    await client.query(`
+      CREATE TABLE IF NOT EXISTS schema_migrations (
+        name text PRIMARY KEY,
+        applied_at timestamptz NOT NULL DEFAULT now()
+      )
+    `);
+    const applied = new Set(
+      (await client.query<{ name: string }>('SELECT name FROM schema_migrations')).rows.map(
+        (row) => row.name,
+      ),
+    );
+    for (const file of files) {
+      if (applied.has(file)) continue;
+      const sql = await readFile(path.join(dir, file), 'utf8');
+      logger.info({ migration: file }, 'Applying database migration');
+      await client.query('BEGIN');
+      try {
+        await client.query(sql);
+        await client.query('INSERT INTO schema_migrations(name) VALUES($1)', [file]);
+        await client.query('COMMIT');
+      } catch (error) {
+        await client.query('ROLLBACK');
+        throw new Error(`Migration ${file} failed: ${(error as Error).message}`);
+      }
+    }
+    migrated = true;
+  } finally {
+    await client.query('SELECT pg_advisory_unlock(738291045)').catch(() => undefined);
+    client.release();
+  }
+}
+
+export async function initializeDatabase(): Promise<void> {
+  await migrate();
+}
+
+export async function closeDatabase(): Promise<void> {
+  await pool.end();
 }

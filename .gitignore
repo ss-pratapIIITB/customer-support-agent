@@ -1,4 +1,5 @@
 node_modules/
+build/
 dist/
 .env
 .env.*
@@ -9,6 +10,12 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+.pytest_cache/
+.ruff_cache/
 .DS_Store
 *.pem
 *.key
+coverage/
+evals/reports/
+playwright-report/
+test-results/
